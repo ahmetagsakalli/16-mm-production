@@ -10,3 +10,4 @@ node_modules/
 # Exact MP4 bytes are stored in .transfer/media-parts and restored automatically.
 /assets/gallery/originals/8- FUAR/Storks İJS 2026 Fuar rev-3.mp4
 /public/media/gallery/8-fuar-94c89f/storks-ijs-2026-fuar-rev-3-ed64eb22-f6bc117cafeb.mp4
+.env*

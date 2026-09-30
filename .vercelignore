@@ -11,3 +11,7 @@ assets/gallery/cache.json
 assets/gallery/.pipeline-lock/
 
 .data/
+
+# Archive stays in GitHub; deployment restores only public media.
+.transfer/
+public/media/gallery/

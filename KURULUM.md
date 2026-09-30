@@ -59,14 +59,14 @@ Uygulama `127.0.0.1:3000` üzerinde çalışır. Önüne HTTPS sağlayan Nginx/C
 
 - Node.js süreci sürekli çalışmalı; `.data/`, `assets/gallery/` ve `public/media/` yazılabilir, kalıcı disk üzerinde olmalıdır. Paneldeki yeni fotoğraflar ve videolar bu alanlara yazılır.
 - Yeni sürüm yüklerken canlı `.data/`, `assets/gallery/originals/` ve `public/media/` klasörlerini depodaki eski kopyalarla ezmeyin. Canlı verinin ayrıca yedeğini alın.
-- Bu panel kalıcı SQLite ve dosya depolaması kullanır; yalnızca statik export veya geçici dosya sistemli serverless yayın, panel verilerini kalıcı tutmaz.
+- Bu yerel kurulum kalıcı SQLite ve dosya depolaması kullanır. Vercel için aşağıdaki kalıcı bulut bağlantıları gereklidir; yalnızca statik export paneli çalıştırmaz.
 - Hazır tüm WebP boyutları ve videolar dahildir. İlk kurulumda dosya tarihlerinin değişmesi nedeniyle medya hazırlama bir kez yeniden çalışabilir. Sonraki ziyaretlerde fotoğraflar yeniden kodlanmaz.
 - `assets/gallery/local.json` eski Mac’in FFmpeg yolunu aynen korur; yeni cihazda `FFMPEG_PATH=ffmpeg` ile geçersiz kılın.
 - `.env.local` isteğiniz doğrultusunda aynen dahildir. İçindeki eski Vercel OIDC oturumu 16 Eylül 2026’da sona ermiştir; yeni cihazda Vercel yetkisi sağlamaz. Gerekirse kendi hesabınızla yeniden giriş yapın. Mevcut `.vercel/` proje bağlantısı da korunmuştur.
 
 ## Hiçbir dosya atlanmadığının denetimi
 
-`.transfer/manifest.json`, kaynak projedeki ve bağlı bağımlılık klasöründeki dosyaların SHA-256 özetlerini ve konumlarını listeler. `scripts/verify-transfer.py` depo dosyalarını ve arşivlerin her üyesini bu listeyle karşılaştırır.
+`.transfer/manifest.json`, kaynak projedeki ve bağlı bağımlılık klasöründeki dosyaların SHA-256 özetlerini ve konumlarını listeler. `scripts/verify-transfer.py` ilk aktarım dosyalarını ve arşivlerin her üyesini bu listeyle karşılaştırır. Manifest ilk aktarımın kaydıdır; sonraki kod değişiklikleri doğal olarak farklı özet üretir. İlk aktarımı birebir denetlemek için ayrı bir checkout içinde `9d6b89b` sürümünü kullanın.
 
 - `assets/gallery/originals/`: orijinal klasörler ve dosyalar.
 - `public/media/`: siteye servis edilen tüm WebP/MP4 sürümleri ve yüksek kaliteli hero kopyaları.
@@ -93,3 +93,15 @@ En son Lighthouse ölçümü: mobil ana sayfa 94, masaüstü 100; SEO 100. Rapor
 741 MB orijinal film ve 155 MB web filmi, bağlantıdaki tek dosya yükleme yavaşlığını aşmak için 32 MiB parçalara ayrılmıştır. Yeniden kodlama veya kalite kaybı yoktur. Bütün parçalar `.transfer/media-parts/`, dosya sırası ve SHA-256 özetleri `.transfer/media-parts.json` içindedir. `node scripts/restore-transfer.mjs` her parçayı ve birleşmiş dosyayı doğrulayıp videoları aynı ad ve aynı kaynak/site klasörlerine atomik olarak geri koyar. `dev` ve `build` de bu adımı otomatik çalıştırır.
 
 Git’te videoların büyük tek dosyaları yerine bu tam parçalar saklanır; geri oluşturulan MP4 kopyaları Git dışında tutulur. Orijinal dosyalardan hiçbir bayt atlanmamıştır. Elle çalıştırılan geri yükleme/doğrulama komutu mevcut farklı bir videonun üzerine yazmaz, durur. Normal `dev` / `build` mevcut videoları olduğu gibi korur; yalnızca eksik olanları arşivden tamamlar. Böylece sonraki medya güncellemeleri eski yedekle ezilmez. Taşıma öncesi medya hazırlama betiği de `.transfer/original-prepare-media.mjs` olarak saklanır.
+
+## Vercel ve kalıcı bulut paneli (30 Eylül 2026)
+
+Vercel projesi: `guncel-yayin / ozan-b-portfolio`. Yerel kullanımda SQLite ve yerel dosyalar çalışmaya devam eder. Vercel, ayrı `16mm-production-cms` Turso veritabanı ve özel `16mm-production-media` Blob deposunu kullanır. Proje, galeri sırası, taslak, yayın geçmişi, giriş ve şifre değişiklikleri Turso'da kalıcıdır.
+
+Vercel ortam değişkenleri: `TURSO_DATABASE_URL`, `TURSO_AUTH_TOKEN`, `BLOB_READ_WRITE_TOKEN`; isteğe bağlı `SITE_URL`. Yeni bulut anahtarları Vercel ayarlarında tutulur. Başka bilgisayarda aynı Vercel hesabıyla `vercel link` ve `vercel env pull` kullanın. Yerel `.data/cms.sqlite` canlı bulut veritabanının otomatik güncel yedeği değildir; paneldeki içerik dışa aktarmayı ve sağlayıcı yedeklerini kullanın.
+
+Yeni yüklemeler tarayıcıdan özel Blob deposuna gider. Fotoğraflar sunucuda orijinal korunarak WebP ve uyumlu boyutlara çevrilir. Bulutta video için MP4 veya WebM kullanın; MOV dosyasını MP4 dışa aktarın. Video orijinali korunur; sessiz kısa H.264 önizleme ve WebP kapak üretilir. Taslaklara sadece yönetici erişir. Yayından kaldırılan dosyanın yeni bağlantıları kapanır; daha önce verilmiş imzalı bağlantı en fazla 30 dakika daha geçerli kalır.
+
+Hazır galerinin 3.933 dosyası `assets/gallery/deployment.json` manifestine göre özel depodaki SHA-256 doğrulamalı arşivden derleme sırasında aynı klasörlere açılır ve Vercel CDN'den servis edilir. Bu nedenle GitHub'ın private yapılması galerinin yayınını veya bu Vercel projesindeki yeni derlemeleri etkilemez. Orijinal klasör arşivi GitHub'da ayrıca korunur. Yeni yerel galeri aktarımında manifest ve özel yayın arşivi güncellenmelidir; panel yüklemeleri bu arşive ihtiyaç duymaz.
+
+Turso Starter ve Vercel Hobby ücretsiz kotaları kullanılır; ücretli paket açılmadı. Yeni dosya eklerken sağlayıcı panelindeki depolama/kullanım kotasını takip edin. Boyut sınırları dosya başınadır; kalan hesap kotasını artırmaz. Üretime güncelleme: `vercel deploy --prod --skip-domain`, kontrol sonrası `vercel promote <deployment-url>`. Çalışan bulut veritabanının üzerine eski SQLite yedeğini aktarmayın; geçiş betiği dolu hedefe yazmayı reddeder.

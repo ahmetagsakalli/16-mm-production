@@ -1,6 +1,7 @@
 'use client';
 /* eslint-disable @next/next/no-img-element */
 import Link from 'next/link';
+import { upload as uploadBlob } from '@vercel/blob/client';
 import { useRef, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import { categories, categoryIds } from '@/content/site';
@@ -28,11 +29,18 @@ export function Editor({ initial }: { initial: ProjectRecord }) {
       for (const [index, file] of batch.entries()) {
         setProgress(`${index + 1} / ${batch.length} — ${file.name}`); setPercent(0);
         try {
-          current = await new Promise<ProjectRecord>((resolve, reject) => {
+          const plan = await api<{ cloud: boolean; id?: string; pathname?: string }>(`projects/${record.id}/upload-plan`, 'POST', { name: file.name, bytes: file.size });
+          if (plan.cloud && plan.id && plan.pathname) {
+            await uploadBlob(plan.pathname, file, { access: 'private', handleUploadUrl: '/api/admin/blob-token', clientPayload: JSON.stringify({ id: plan.id }), multipart: file.size > 4 * 1024 ** 2, contentType: file.type || 'application/octet-stream', onUploadProgress: event => setPercent(Math.round(event.percentage)) });
+            setPercent(100);
+            current = await api<ProjectRecord>(`projects/${record.id}/upload-complete`, 'POST', { id: plan.id });
+          } else {
+            current = await new Promise<ProjectRecord>((resolve, reject) => {
             const xhr = new XMLHttpRequest(); xhr.open('POST', `/api/admin/projects/${record.id}/upload`); xhr.setRequestHeader('X-File-Name', encodeURIComponent(file.name)); xhr.setRequestHeader('Content-Type', 'application/octet-stream');
             xhr.upload.onprogress = event => { if (event.lengthComputable) setPercent(Math.round(event.loaded / event.total * 100)); };
             xhr.onload = () => { try { const data = JSON.parse(xhr.responseText); if (xhr.status >= 200 && xhr.status < 300) resolve(data); else reject(new Error(data.error || 'Yüklenemedi.')); } catch { reject(new Error('Sunucu yanıtı okunamadı.')); } }; xhr.onerror = () => reject(new Error('Bağlantı kesildi.')); xhr.send(file);
           });
+          }
           accept(current);
         } catch (e) { failures.push(`${file.name}: ${(e as Error).message}`); }
       }

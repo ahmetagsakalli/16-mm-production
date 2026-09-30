@@ -13,7 +13,7 @@ export const projectSchema = z.object({
   featured: z.boolean(),
 }).strict();
 export type ProjectDraft = z.infer<typeof projectSchema>;
-export type Media = { id: string; projectId: string; name: string; kind: 'image' | 'video'; image: ImageData; src?: string; previewSrc?: string; bytes: number; originalBytes: number; uploaded: boolean };
+export type Media = { id: string; projectId: string; name: string; kind: 'image' | 'video'; image: ImageData; src?: string; previewSrc?: string; bytes: number; originalBytes: number; uploaded: boolean; storage?: { original: string; files: Record<string, string> } };
 export type ProjectRecord = { id: string; sourceFolder: string; draft: ProjectDraft; published: ProjectDraft | null; version: number; deleted: boolean; updatedAt: number; publishedAt: number | null; media: Media[] };
 export type ProjectSummary = Omit<ProjectRecord, 'media' | 'draft' | 'published'> & { title: string; slug: string; categories: ProjectDraft['categories']; cover: string; photoCount: number; videoCount: number; status: 'draft' | 'published' | 'changed'; order: number };
 export const settingsSchema = z.object({

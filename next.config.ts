@@ -6,7 +6,8 @@ const config: NextConfig = {
   // render-blocking stylesheet round trips on a first visit over mobile networks.
   experimental: { globalNotFound: true, inlineCss: true },
   poweredByHeader: false,
-  serverExternalPackages: ['@node-rs/argon2', 'sharp'],
+  serverExternalPackages: ['@node-rs/argon2', 'sharp', '@ffmpeg-installer/ffmpeg'],
+  outputFileTracingExcludes: { '*': ['./.transfer/**/*', './assets/gallery/originals/**/*', './.data/**/*', './reports/**/*', './public/media/gallery/**/*'] },
   async redirects() {
     return [
       { source: '/tr', destination: '/', permanent: true },
