@@ -10,7 +10,7 @@ async function sha256(path) {
   return hash.digest('hex');
 }
 
-export async function restoreTransferredMedia(root) {
+export async function restoreTransferredMedia(root, { verifyExisting = false } = {}) {
   const manifestPath = join(root, '.transfer/media-parts.json');
   try { await access(manifestPath); } catch { return; }
   const manifest = JSON.parse(await readFile(manifestPath, 'utf8'));
@@ -24,7 +24,7 @@ export async function restoreTransferredMedia(root) {
     const destination = localPath(item.path);
     const existing = await stat(destination).catch((error) => { if (error.code === 'ENOENT') return null; throw error; });
     if (existing) {
-      if (existing.size !== item.bytes || await sha256(destination) !== item.sha256) {
+      if (verifyExisting && (existing.size !== item.bytes || await sha256(destination) !== item.sha256)) {
         throw new Error(`Mevcut dosya aktarım kopyasından farklı; üzerine yazılmadı: ${item.path}`);
       }
       continue;
@@ -58,5 +58,5 @@ export async function restoreTransferredMedia(root) {
 }
 
 if (process.argv[1] && import.meta.url === pathToFileURL(resolve(process.argv[1])).href) {
-  await restoreTransferredMedia(resolve(import.meta.dirname, '..'));
+  await restoreTransferredMedia(resolve(import.meta.dirname, '..'), { verifyExisting: true });
 }

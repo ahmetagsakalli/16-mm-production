@@ -47,7 +47,10 @@ test('never overwrites an existing movie with different contents', async () => {
   try {
     await mkdir(join(f.root, 'public/media'), { recursive: true });
     await writeFile(f.destination, 'user-edited-video');
-    await assert.rejects(restoreTransferredMedia(f.root), /üzerine yazılmadı/);
+    await assert.rejects(restoreTransferredMedia(f.root, { verifyExisting: true }), /üzerine yazılmadı/);
+    assert.equal(await readFile(f.destination, 'utf8'), 'user-edited-video');
+    // Ordinary dev/build runs preserve an existing later version of a movie.
+    await restoreTransferredMedia(f.root);
     assert.equal(await readFile(f.destination, 'utf8'), 'user-edited-video');
   } finally { await rm(f.root, { recursive: true, force: true }); }
 });
