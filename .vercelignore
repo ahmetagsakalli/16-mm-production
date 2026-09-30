@@ -1,0 +1,13 @@
+node_modules/
+.next/
+.env*
+reports/
+*.tsbuildinfo
+.DS_Store
+
+assets/gallery/originals/
+assets/gallery/local.json
+assets/gallery/cache.json
+assets/gallery/.pipeline-lock/
+
+.data/

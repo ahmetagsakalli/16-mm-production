@@ -1,0 +1,36 @@
+[
+  {
+    "name": "home-mobile",
+    "route": "/",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 88,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcp": 918,
+    "lcp": 3844,
+    "cls": 0,
+    "tbt": 75,
+    "transferBytes": 948995,
+    "error": null
+  },
+  {
+    "name": "home-desktop",
+    "route": "/",
+    "formFactor": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcp": 225,
+    "lcp": 759,
+    "cls": 0,
+    "tbt": 3,
+    "transferBytes": 1225437,
+    "error": null
+  }
+]

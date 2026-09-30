@@ -1,0 +1,87 @@
+[
+  {
+    "name": "home-mobile",
+    "route": "/",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcp": 879,
+    "lcp": 2391,
+    "cls": 0,
+    "tbt": 37,
+    "transferBytes": 925914,
+    "error": null
+  },
+  {
+    "name": "home-desktop",
+    "route": "/",
+    "formFactor": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcp": 231,
+    "lcp": 637,
+    "cls": 0,
+    "tbt": 0,
+    "transferBytes": 1186846,
+    "error": null
+  },
+  {
+    "name": "contact-mobile",
+    "route": "/contact",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 99,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcp": 778,
+    "lcp": 2114,
+    "cls": 0,
+    "tbt": 20,
+    "transferBytes": 370952,
+    "error": null
+  },
+  {
+    "name": "architecture-mobile",
+    "route": "/portfolio/architecture",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcp": 799,
+    "lcp": 2787,
+    "cls": 0,
+    "tbt": 17,
+    "transferBytes": 1061601,
+    "error": null
+  },
+  {
+    "name": "project-mobile",
+    "route": "/projects/3-urun-49d407",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 93,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcp": 1070,
+    "lcp": 3242,
+    "cls": 0,
+    "tbt": 33,
+    "transferBytes": 836343,
+    "error": null
+  }
+]

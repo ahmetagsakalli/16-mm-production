@@ -1,0 +1,15 @@
+{
+  "brand": "16mm Production",
+  "language": "tr",
+  "pages": 37,
+  "englishRedirects": 37,
+  "queryPreserved": true,
+  "turkish404": true,
+  "oldBrandAbsent": true,
+  "noLanguageLinks": true,
+  "photos": 654,
+  "albums": 30,
+  "build": true,
+  "lint": true,
+  "typecheck": true
+}

@@ -1,0 +1,14 @@
+{
+  "groups": {
+    "1- MİMARİ": { "category": "architecture", "title": { "tr": "Mimari", "en": "Architecture" } },
+    "2- MAĞAZA": { "category": "interiors", "title": { "tr": "Mağaza", "en": "Retail" } },
+    "3- ÜRÜN": { "category": "product", "title": { "tr": "Ürün", "en": "Product" } },
+    "4- OTEL": { "category": "interiors", "title": { "tr": "Otel", "en": "Hotels" } },
+    "5- AYDINLATMA": { "category": "product", "title": { "tr": "Aydınlatma", "en": "Lighting" } },
+    "6- GIDA": { "category": "product", "title": { "tr": "Gıda", "en": "Food" } },
+    "7- MÜZİK": { "category": "clips", "title": { "tr": "Müzik", "en": "Music" } },
+    "8- FUAR": { "category": "architecture", "title": { "tr": "Fuar", "en": "Exhibitions" } },
+    "zz Detay": { "category": "architecture", "title": { "tr": "Detay", "en": "Details" } }
+  },
+  "projects": {}
+}

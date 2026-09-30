@@ -1,0 +1,28 @@
+[
+  {
+    "route": "/tr",
+    "scores": {
+      "performance": 98,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "lcp": 2362,
+    "cls": 0,
+    "tbt": 65,
+    "error": null
+  },
+  {
+    "route": "/tr/projects/3-urun-49d407",
+    "scores": {
+      "performance": 94,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "lcp": 3018,
+    "cls": 0,
+    "tbt": 35,
+    "error": null
+  }
+]

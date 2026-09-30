@@ -1,0 +1,16 @@
+{
+  "passed": 11,
+  "checks": [
+    "Unauthenticated API blocked",
+    "Production setup blocked",
+    "Cross-origin writes blocked",
+    "Secure login and session cookie",
+    "Actual upload converts to WebP and draft media stays private",
+    "Unpublished project is not public",
+    "New project published without rebuild, media accessible",
+    "Slug changes redirect old URLs",
+    "Noindex, security headers and content-only export",
+    "Trash removes public page while retaining original files",
+    "Logout revokes session"
+  ]
+}

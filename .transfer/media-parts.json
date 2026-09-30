@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "files": [
+    {
+      "path": "assets/gallery/originals/8- FUAR/Storks İJS 2026 Fuar rev-3.mp4",
+      "bytes": 741071299,
+      "sha256": "c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732",
+      "mtimeMs": 1790758546773.0334,
+      "parts": [
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0000.part",
+          "bytes": 33554432,
+          "sha256": "4a071e1ed3c5aa45a029fad86511b0423e43542d8a4ea1547bc50db28dfec619"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0001.part",
+          "bytes": 33554432,
+          "sha256": "c75c17cec4cf528f34614b97685993a0ef7289460c80ca0c8eb64eb1c0bf1f5e"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0002.part",
+          "bytes": 33554432,
+          "sha256": "bdcace8fda8f6fac337faaf61b5b49fa73391b4c7ee82f5cb7b7ac32b056e837"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0003.part",
+          "bytes": 33554432,
+          "sha256": "d289aec89821762778cfe7eb607d4caca08e57d4b5f137a27f023ede499d6ca7"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0004.part",
+          "bytes": 33554432,
+          "sha256": "d0c143c9d0345a0d45318a38c116347659da5592459df2029a06854fdef3be59"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0005.part",
+          "bytes": 33554432,
+          "sha256": "6e2f0f1833dd2ed6b1b2941f46692a79e8afdb89011f482bd8a0d3d6af562fdb"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0006.part",
+          "bytes": 33554432,
+          "sha256": "07420483a65f9a20db0197020b1ad7d54cd83e2b1abca7dc69cbbac6e4782edb"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0007.part",
+          "bytes": 33554432,
+          "sha256": "3ef794f0635e37be3a872d2aed6d50f29b4febaad57533a9ec8748855a838ba5"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0008.part",
+          "bytes": 33554432,
+          "sha256": "df5bcf1f9711eda49ecc3e66374ddfd9c353919c06b3afb834bd8443f4cac598"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0009.part",
+          "bytes": 33554432,
+          "sha256": "1331a5e91c7e3132e85ef29472608d9af5450a15d63919334f1a9ab37eb41532"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0010.part",
+          "bytes": 33554432,
+          "sha256": "a8dab400323f02d68e306ab1d6d7e799ba8aebc352f8bf313f9bfd4cf58d0190"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0011.part",
+          "bytes": 33554432,
+          "sha256": "e2ee82d09b178680689acac735da735bbbeb8b62a7ca478b359f93bf1d8ca0a6"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0012.part",
+          "bytes": 33554432,
+          "sha256": "2dcc56ae47d26f673a758513e132ae66ccaae24704cc66cb4cf7cdefe263aee5"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0013.part",
+          "bytes": 33554432,
+          "sha256": "9e17266df91e487ed6332530466a2076dbcff7916aaaf197b1f1d28beb749206"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0014.part",
+          "bytes": 33554432,
+          "sha256": "b8da3e55810081a664d83d1983ad7e84097223d23f6ee6bb2d08d88a013beeb9"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0015.part",
+          "bytes": 33554432,
+          "sha256": "668a64608f1847384780f33f57fc0ce9ebcb6cc0ba956b67fad55e2bcfd9c48b"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0016.part",
+          "bytes": 33554432,
+          "sha256": "02d62eccfc3d52c3725909ed1c4262f3323486d1946f593d96a27701f690d25e"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0017.part",
+          "bytes": 33554432,
+          "sha256": "a6e2c1763b55dcf2882a5c3b5b93a71d47c769d3985fa3517090368835c4382c"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0018.part",
+          "bytes": 33554432,
+          "sha256": "4aa78cba58fbdf6098bc4b2e36bf7106e63bc4ecb73b4aa6c2917aa7f308a432"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0019.part",
+          "bytes": 33554432,
+          "sha256": "d5a7f28311d9820349193581d2aca88133759f66c714720cb42ea07f78360276"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0020.part",
+          "bytes": 33554432,
+          "sha256": "74e616959894f08e252d161da30db17b134d879ce1df71e217e744c0f2ab62e6"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0021.part",
+          "bytes": 33554432,
+          "sha256": "9ac1f0bd949c14a3a7d36cc3e4ba8e0b52e6cf591f753c59682bf60f22a64e5c"
+        },
+        {
+          "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0022.part",
+          "bytes": 2873795,
+          "sha256": "9489347c129cf91a4af9db52ba73a4eb8bbb6403e09ff00ebf648fd9031cd547"
+        }
+      ]
+    },
+    {
+      "path": "public/media/gallery/8-fuar-94c89f/storks-ijs-2026-fuar-rev-3-ed64eb22-f6bc117cafeb.mp4",
+      "bytes": 155622178,
+      "sha256": "e98f58093aa5f3da49a36218b9ead939b04b71a20048fe3580cec1ddbd8e3b50",
+      "mtimeMs": 1790758583311.4695,
+      "parts": [
+        {
+          "path": ".transfer/media-parts/e98f58093aa5f3da49a36218b9ead939b04b71a20048fe3580cec1ddbd8e3b50/0000.part",
+          "bytes": 33554432,
+          "sha256": "1b29584912b5f4910cd710087167843404d8eeb73c2c5693159ed859da8dd5a3"
+        },
+        {
+          "path": ".transfer/media-parts/e98f58093aa5f3da49a36218b9ead939b04b71a20048fe3580cec1ddbd8e3b50/0001.part",
+          "bytes": 33554432,
+          "sha256": "243ca88bc7bc3be3ccaeb3705b6649a51d77c90448cae0e483447ddf7142c79f"
+        },
+        {
+          "path": ".transfer/media-parts/e98f58093aa5f3da49a36218b9ead939b04b71a20048fe3580cec1ddbd8e3b50/0002.part",
+          "bytes": 33554432,
+          "sha256": "4751561fd956b73d9c8b5e4fc33e5afdf65ce9e754b4742e428375e7b2ddc971"
+        },
+        {
+          "path": ".transfer/media-parts/e98f58093aa5f3da49a36218b9ead939b04b71a20048fe3580cec1ddbd8e3b50/0003.part",
+          "bytes": 33554432,
+          "sha256": "a7f2c9c4a3b6b95ca73b278c77a45d0a34810506a4a2ff438b038053a4d18501"
+        },
+        {
+          "path": ".transfer/media-parts/e98f58093aa5f3da49a36218b9ead939b04b71a20048fe3580cec1ddbd8e3b50/0004.part",
+          "bytes": 21404450,
+          "sha256": "947d44f1db364dcac32e8d7ea8a9653b0cc85b753f045590653685941090c035"
+        }
+      ]
+    }
+  ]
+}

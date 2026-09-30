@@ -1,0 +1,104 @@
+[
+  {
+    "name": "home-mobile",
+    "route": "/",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 96,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcp": 883,
+    "lcp": 2724,
+    "cls": 0,
+    "tbt": 83,
+    "transferBytes": 890940,
+    "error": null
+  },
+  {
+    "name": "home-desktop",
+    "route": "/",
+    "formFactor": "desktop",
+    "scores": {
+      "performance": 100,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcp": 228,
+    "lcp": 647,
+    "cls": 0,
+    "tbt": 0,
+    "transferBytes": 1190633,
+    "error": null
+  },
+  {
+    "name": "contact-mobile",
+    "route": "/contact",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 97,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcp": 772,
+    "lcp": 2560,
+    "cls": 0,
+    "tbt": 20,
+    "transferBytes": 358338,
+    "error": null
+  },
+  {
+    "name": "architecture-mobile",
+    "route": "/portfolio/architecture",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 94,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcp": 803,
+    "lcp": 3102,
+    "cls": 0,
+    "tbt": 20,
+    "transferBytes": 896284,
+    "error": null
+  },
+  {
+    "name": "project-mobile",
+    "route": "/projects/3-urun-49d407",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 94,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcp": 1057,
+    "lcp": 3014,
+    "cls": 0,
+    "tbt": 19,
+    "transferBytes": 702459,
+    "error": null
+  },
+  {
+    "name": "video-mobile",
+    "route": "/projects/8-fuar-94c89f",
+    "formFactor": "mobile",
+    "scores": {
+      "performance": 93,
+      "accessibility": 100,
+      "best-practices": 100,
+      "seo": 100
+    },
+    "fcp": 848,
+    "lcp": 3254,
+    "cls": 0,
+    "tbt": 21,
+    "transferBytes": 752690,
+    "error": null
+  }
+]

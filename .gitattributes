@@ -1,0 +1,5 @@
+assets/gallery/originals/** filter=lfs diff=lfs merge=lfs -text
+public/media/** filter=lfs diff=lfs merge=lfs -text
+.transfer/*.tar.gz filter=lfs diff=lfs merge=lfs -text
+.data/*.sqlite filter=lfs diff=lfs merge=lfs -text
+.transfer/media-parts/** filter=lfs diff=lfs merge=lfs -text

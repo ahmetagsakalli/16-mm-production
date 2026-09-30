@@ -1,0 +1,16 @@
+node_modules/
+.next/
+.vercel/
+.env*.local
+*.tsbuildinfo
+.DS_Store
+assets/.image-cache.json
+.vercel
+.env*
+
+assets/gallery/originals/
+assets/gallery/local.json
+assets/gallery/cache.json
+assets/gallery/.pipeline-lock/
+
+.data/
