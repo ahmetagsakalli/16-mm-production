@@ -1,0 +1,370 @@
+{
+  "measuredAt": "2026-09-30T14:46:11.482Z",
+  "base": "https://ozan-b-portfolio-iclzlb6us-guncel-yayin.vercel.app/",
+  "pageCount": 37,
+  "passed": 37,
+  "robots": {
+    "status": 200,
+    "blocksAdmin": true,
+    "sitemapListed": true
+  },
+  "adminNoindex": true,
+  "missingProjectStatus": 404,
+  "redirects": [
+    {
+      "path": "/tr",
+      "status": 308,
+      "location": "/"
+    },
+    {
+      "path": "/en",
+      "status": 308,
+      "location": "/"
+    },
+    {
+      "path": "/tr/contact",
+      "status": 308,
+      "location": "/contact"
+    },
+    {
+      "path": "/en/contact",
+      "status": 308,
+      "location": "/contact"
+    }
+  ],
+  "pages": [
+    {
+      "path": "/",
+      "status": 200,
+      "title": "Mimari Fotoğrafçılık &amp; Film | 16mm Production",
+      "description": "16mm Production — Mimari fotoğrafçılık, iç mekân, ürün fotoğrafçılığı ve film. Mekânın karakterini, ışığın ve detayların hikâyesini keşfedin.",
+      "canonical": "https://ozan-b-portfolio.vercel.app",
+      "imageCount": 11,
+      "errors": []
+    },
+    {
+      "path": "/contact",
+      "status": 200,
+      "title": "İletişim | 16mm Production",
+      "description": "Mimari projeleriniz, mekânlarınız ve tasarımlarınız için birlikte bir görsel hikâye oluşturalım.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/contact",
+      "imageCount": 1,
+      "errors": []
+    },
+    {
+      "path": "/portfolio/architecture",
+      "status": 200,
+      "title": "Mimari Projeler | 16mm Production",
+      "description": "Yapının karakteri, ışığın izinde. Dışarıdan içeriye, bütünden detaya bir bakış.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/portfolio/architecture",
+      "imageCount": 12,
+      "errors": []
+    },
+    {
+      "path": "/portfolio/interiors",
+      "status": 200,
+      "title": "İç Mekân | 16mm Production",
+      "description": "İçinde yaşanan, hissedilen mekânlar. Doğal ışık, malzeme ve gündelik hayatın sessiz dengesi.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/portfolio/interiors",
+      "imageCount": 13,
+      "errors": []
+    },
+    {
+      "path": "/portfolio/product",
+      "status": 200,
+      "title": "Ürün | 16mm Production",
+      "description": "Bir nesnenin çizgisi, dokusu, duruşu. Tasarımın özünü görünür kılan fotoğraflar.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/portfolio/product",
+      "imageCount": 3,
+      "errors": []
+    },
+    {
+      "path": "/portfolio/video",
+      "status": 200,
+      "title": "Video | 16mm Production",
+      "description": "Mekânı zamanın içinde deneyimlemek. Işığın değiştiği, hikâyenin hareket ettiği filmler.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/portfolio/video",
+      "imageCount": 1,
+      "errors": []
+    },
+    {
+      "path": "/portfolio/clips",
+      "status": 200,
+      "title": "Klip | 16mm Production",
+      "description": "Kısa anlar, güçlü bir atmosfer. Görsel ritim ve yaratıcı anlatım üzerine çalışmalar.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/portfolio/clips",
+      "imageCount": 2,
+      "errors": []
+    },
+    {
+      "path": "/projects/1-mimari-1-emaar-2025-674a2b",
+      "status": 200,
+      "title": "Emaar 2025 | 16mm Production",
+      "description": "Emaar 2025 — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/1-mimari-1-emaar-2025-674a2b",
+      "imageCount": 16,
+      "errors": []
+    },
+    {
+      "path": "/projects/1-mimari-4-hilltown-avm-9ab10b",
+      "status": 200,
+      "title": "Hilltown avm | 16mm Production",
+      "description": "Hilltown avm — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/1-mimari-4-hilltown-avm-9ab10b",
+      "imageCount": 20,
+      "errors": []
+    },
+    {
+      "path": "/projects/1-mimari-7-ayvalik-belediyesi-halil-basyazgan-kucukkoy-cumhuriyet-kultur-merkezi-5a1376",
+      "status": 200,
+      "title": "Ayvalık Belediyesi Halil Başyazgan Küçükköy Cumhuriyet Kültür Merkezi | 16mm Production",
+      "description": "Ayvalık Belediyesi Halil Başyazgan Küçükköy Cumhuriyet Kültür Merkezi — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/1-mimari-7-ayvalik-belediyesi-halil-basyazgan-kucukkoy-cumhuriyet-kultur-merkezi-5a1376",
+      "imageCount": 13,
+      "errors": []
+    },
+    {
+      "path": "/projects/1-mimari-12-maslak-42-553c0c",
+      "status": 200,
+      "title": "maslak 42 | 16mm Production",
+      "description": "maslak 42 — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/1-mimari-12-maslak-42-553c0c",
+      "imageCount": 5,
+      "errors": []
+    },
+    {
+      "path": "/projects/1-mimari-17-acibadem-bodrum-hastanesi-6d242c",
+      "status": 200,
+      "title": "Acıbadem Bodrum Hastanesi | 16mm Production",
+      "description": "Acıbadem Bodrum Hastanesi — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/1-mimari-17-acibadem-bodrum-hastanesi-6d242c",
+      "imageCount": 20,
+      "errors": []
+    },
+    {
+      "path": "/projects/1-mimari-20-buyukcekmece-belediyesi-02b636",
+      "status": 200,
+      "title": "Büyükçekmece belediyesi | 16mm Production",
+      "description": "Büyükçekmece belediyesi — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/1-mimari-20-buyukcekmece-belediyesi-02b636",
+      "imageCount": 15,
+      "errors": []
+    },
+    {
+      "path": "/projects/1-mimari-21-sivil-havacilik-binasi-56412c",
+      "status": 200,
+      "title": "Sivil havacılık binası | 16mm Production",
+      "description": "Sivil havacılık binası — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/1-mimari-21-sivil-havacilik-binasi-56412c",
+      "imageCount": 2,
+      "errors": []
+    },
+    {
+      "path": "/projects/1-mimari-23-emaar-toskana-vadisi-9b7365",
+      "status": 200,
+      "title": "Emaar Toskana Vadisi | 16mm Production",
+      "description": "Emaar Toskana Vadisi — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/1-mimari-23-emaar-toskana-vadisi-9b7365",
+      "imageCount": 20,
+      "errors": []
+    },
+    {
+      "path": "/projects/1-mimari-24-emar-square-residence-1d6791",
+      "status": 200,
+      "title": "Emar Square Residence | 16mm Production",
+      "description": "Emar Square Residence — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/1-mimari-24-emar-square-residence-1d6791",
+      "imageCount": 43,
+      "errors": []
+    },
+    {
+      "path": "/projects/1-mimari-28-makyol-satis-ofisi-f62c63",
+      "status": 200,
+      "title": "Makyol Satis Ofisi | 16mm Production",
+      "description": "Makyol Satis Ofisi — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/1-mimari-28-makyol-satis-ofisi-f62c63",
+      "imageCount": 10,
+      "errors": []
+    },
+    {
+      "path": "/projects/2-magaza-4-gizia-fc5533",
+      "status": 200,
+      "title": "Gizia | 16mm Production",
+      "description": "Gizia — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/2-magaza-4-gizia-fc5533",
+      "imageCount": 9,
+      "errors": []
+    },
+    {
+      "path": "/projects/2-magaza-5-damat-tween-0edcf9",
+      "status": 200,
+      "title": "Damat Tween | 16mm Production",
+      "description": "Damat Tween — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/2-magaza-5-damat-tween-0edcf9",
+      "imageCount": 26,
+      "errors": []
+    },
+    {
+      "path": "/projects/2-magaza-7-birkenstock-ec084a",
+      "status": 200,
+      "title": "Birkenstock | 16mm Production",
+      "description": "Birkenstock — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/2-magaza-7-birkenstock-ec084a",
+      "imageCount": 15,
+      "errors": []
+    },
+    {
+      "path": "/projects/2-magaza-9-paul-shark-eeb3bf",
+      "status": 200,
+      "title": "Paul&amp;Shark | 16mm Production",
+      "description": "Paul&amp;Shark — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/2-magaza-9-paul-shark-eeb3bf",
+      "imageCount": 6,
+      "errors": []
+    },
+    {
+      "path": "/projects/2-magaza-10-koton-9de415",
+      "status": 200,
+      "title": "Koton | 16mm Production",
+      "description": "Koton — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/2-magaza-10-koton-9de415",
+      "imageCount": 25,
+      "errors": []
+    },
+    {
+      "path": "/projects/2-magaza-13-storks-aa3545",
+      "status": 200,
+      "title": "STORKS | 16mm Production",
+      "description": "STORKS — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/2-magaza-13-storks-aa3545",
+      "imageCount": 2,
+      "errors": []
+    },
+    {
+      "path": "/projects/2-magaza-27-umit-bisiklet-64bdee",
+      "status": 200,
+      "title": "Umit Bisiklet | 16mm Production",
+      "description": "Umit Bisiklet — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/2-magaza-27-umit-bisiklet-64bdee",
+      "imageCount": 24,
+      "errors": []
+    },
+    {
+      "path": "/projects/2-magaza-28-mado-1f1fb7",
+      "status": 200,
+      "title": "MADO | 16mm Production",
+      "description": "MADO — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/2-magaza-28-mado-1f1fb7",
+      "imageCount": 2,
+      "errors": []
+    },
+    {
+      "path": "/projects/2-magaza-30-goreme-muhallebicisi-434b80",
+      "status": 200,
+      "title": "Göreme Muhallebicisi | 16mm Production",
+      "description": "Göreme Muhallebicisi — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/2-magaza-30-goreme-muhallebicisi-434b80",
+      "imageCount": 15,
+      "errors": []
+    },
+    {
+      "path": "/projects/3-urun-49d407",
+      "status": 200,
+      "title": "Ürün | 16mm Production",
+      "description": "Ürün — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/3-urun-49d407",
+      "imageCount": 105,
+      "errors": []
+    },
+    {
+      "path": "/projects/4-otel-1-antwell-suites-set-1-e28394",
+      "status": 200,
+      "title": "Antwell Suites Set 1 | 16mm Production",
+      "description": "Antwell Suites Set 1 — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/4-otel-1-antwell-suites-set-1-e28394",
+      "imageCount": 3,
+      "errors": []
+    },
+    {
+      "path": "/projects/4-otel-6-mirage-park-resort-637b09",
+      "status": 200,
+      "title": "Mirage Park Resort | 16mm Production",
+      "description": "Mirage Park Resort — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/4-otel-6-mirage-park-resort-637b09",
+      "imageCount": 19,
+      "errors": []
+    },
+    {
+      "path": "/projects/4-otel-7-ramada-gemlik-3f4418",
+      "status": 200,
+      "title": "Ramada Gemlik | 16mm Production",
+      "description": "Ramada Gemlik — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/4-otel-7-ramada-gemlik-3f4418",
+      "imageCount": 19,
+      "errors": []
+    },
+    {
+      "path": "/projects/4-otel-10-teras-bozcaada-279d5b",
+      "status": 200,
+      "title": "Teras Bozcaada | 16mm Production",
+      "description": "Teras Bozcaada — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/4-otel-10-teras-bozcaada-279d5b",
+      "imageCount": 12,
+      "errors": []
+    },
+    {
+      "path": "/projects/5-aydinlatma-2505e4",
+      "status": 200,
+      "title": "Aydınlatma | 16mm Production",
+      "description": "Aydınlatma — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/5-aydinlatma-2505e4",
+      "imageCount": 77,
+      "errors": []
+    },
+    {
+      "path": "/projects/6-gida-a5b2ad",
+      "status": 200,
+      "title": "Gıda | 16mm Production",
+      "description": "Gıda — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/6-gida-a5b2ad",
+      "imageCount": 86,
+      "errors": []
+    },
+    {
+      "path": "/projects/7-muzik-cover-dbc656",
+      "status": 200,
+      "title": "COVER | 16mm Production",
+      "description": "COVER — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/7-muzik-cover-dbc656",
+      "imageCount": 2,
+      "errors": []
+    },
+    {
+      "path": "/projects/7-muzik-konser-dec363",
+      "status": 200,
+      "title": "KONSER | 16mm Production",
+      "description": "KONSER — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/7-muzik-konser-dec363",
+      "imageCount": 9,
+      "errors": []
+    },
+    {
+      "path": "/projects/8-fuar-94c89f",
+      "status": 200,
+      "title": "Fuar | 16mm Production",
+      "description": "Fuar — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/8-fuar-94c89f",
+      "imageCount": 39,
+      "errors": []
+    },
+    {
+      "path": "/projects/zz-detay-b3b010",
+      "status": 200,
+      "title": "Detay | 16mm Production",
+      "description": "Detay — Fotoğraf ve film çalışmaları.",
+      "canonical": "https://ozan-b-portfolio.vercel.app/projects/zz-detay-b3b010",
+      "imageCount": 26,
+      "errors": []
+    }
+  ]
+}

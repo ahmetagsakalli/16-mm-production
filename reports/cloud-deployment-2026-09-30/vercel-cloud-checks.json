@@ -1,0 +1,17 @@
+{
+  "origin": "https://ozan-b-portfolio-iclzlb6us-guncel-yayin.vercel.app",
+  "checks": [
+    "unauthenticated admin blocked",
+    "existing administrator login",
+    "large image multipart upload beyond function body limit, retry idempotence",
+    "original image preserved byte for byte",
+    "draft image hidden from anonymous visitors",
+    "WebP conversion and signed private delivery",
+    "video original, WebP poster and short H.264 preview",
+    "published image accessible",
+    "video seeking uses range requests",
+    "recoverable trash removes public access"
+  ],
+  "passed": 10,
+  "testProject": "ed840e53-08a7-4d34-b46d-394e571baab8"
+}
