@@ -146,6 +146,12 @@
       "sha256": "2693566d96fc471efc71c66524e85ae3d3e5e5f9d644f597bb7580fbc8cd1613"
     },
     {
+      "path": ".env.local",
+      "storedAt": ".transfer/source-files/.env.local",
+      "bytes": 1300,
+      "sha256": "c6a2f2ce8fc4f6623c47ac0d7ee2fc3e520215d52bb666c0e52eedce9022c25f"
+    },
+    {
       "path": ".gitignore",
       "storedAt": ".transfer/source-files/.gitignore",
       "bytes": 223,
@@ -29444,6 +29450,12 @@
       "sha256": "c5529380a16f4ac9250957f120ffc8ac4b0c2769c88b6a2c9e43dfac71405248"
     },
     {
+      "path": "reports/gallery-contact-update-2026-10-04.md",
+      "storedAt": "reports/gallery-contact-update-2026-10-04.md",
+      "bytes": 2528,
+      "sha256": "75543282bfa0c019ec86d6b71819f18a9b54225e97c7c7df974637e901de5b79"
+    },
+    {
       "path": "reports/gallery/desktop.png",
       "storedAt": "reports/gallery/desktop.png",
       "bytes": 108260,
@@ -29496,12 +29508,6 @@
       "storedAt": "reports/gallery/verification.json",
       "bytes": 274,
       "sha256": "f105283c7301156371c438a55a9cec5b9c04a219261aff7ae0fa8e255e905d2c"
-    },
-    {
-      "path": "reports/gallery-contact-update-2026-10-04.md",
-      "storedAt": "reports/gallery-contact-update-2026-10-04.md",
-      "bytes": 2528,
-      "sha256": "75543282bfa0c019ec86d6b71819f18a9b54225e97c7c7df974637e901de5b79"
     },
     {
       "path": "reports/hero-quality-desktop.png",
@@ -29780,36 +29786,6 @@
       "sha256": "ff16a8227827847f714fae689fa0a1c75cf8af35119b4dc20cd2394b19b59150"
     },
     {
-      "path": "reports/performance-2026-09-30/hero-quality/home-desktop.html",
-      "storedAt": "reports/performance-2026-09-30/hero-quality/home-desktop.html",
-      "bytes": 926016,
-      "sha256": "00d9814f893d8b625917e7d554946b4f3ad1a2c4e7873311c45ba0ccaa2bc259"
-    },
-    {
-      "path": "reports/performance-2026-09-30/hero-quality/home-desktop.json",
-      "storedAt": "reports/performance-2026-09-30/hero-quality/home-desktop.json",
-      "bytes": 856862,
-      "sha256": "e0e1a7c6a89316d9936b43fe06d3cd765a17daf81d99e5d8a17649daefd4085b"
-    },
-    {
-      "path": "reports/performance-2026-09-30/hero-quality/home-mobile.html",
-      "storedAt": "reports/performance-2026-09-30/hero-quality/home-mobile.html",
-      "bytes": 771376,
-      "sha256": "fa3b21fc044cc16926364363cc3fbc57db61ab5d8c05e8777a027f2818f32661"
-    },
-    {
-      "path": "reports/performance-2026-09-30/hero-quality/home-mobile.json",
-      "storedAt": "reports/performance-2026-09-30/hero-quality/home-mobile.json",
-      "bytes": 699913,
-      "sha256": "34f3e56ea6de084746ed89df07497979724c7d8b7c3b45217bd7d99e02a4576d"
-    },
-    {
-      "path": "reports/performance-2026-09-30/hero-quality/summary.json",
-      "storedAt": "reports/performance-2026-09-30/hero-quality/summary.json",
-      "bytes": 630,
-      "sha256": "f45fe04e1f4e0a6d1e654cf8ad53c0d56ed83749c027e89b39f49cefeae2cd31"
-    },
-    {
       "path": "reports/performance-2026-09-30/hero-quality-final/home-desktop.html",
       "storedAt": "reports/performance-2026-09-30/hero-quality-final/home-desktop.html",
       "bytes": 924611,
@@ -29838,6 +29814,36 @@
       "storedAt": "reports/performance-2026-09-30/hero-quality-final/summary.json",
       "bytes": 630,
       "sha256": "5779511cb53933b3e830c39bd276b400613542069ff301d3785e8d0c81309bb9"
+    },
+    {
+      "path": "reports/performance-2026-09-30/hero-quality/home-desktop.html",
+      "storedAt": "reports/performance-2026-09-30/hero-quality/home-desktop.html",
+      "bytes": 926016,
+      "sha256": "00d9814f893d8b625917e7d554946b4f3ad1a2c4e7873311c45ba0ccaa2bc259"
+    },
+    {
+      "path": "reports/performance-2026-09-30/hero-quality/home-desktop.json",
+      "storedAt": "reports/performance-2026-09-30/hero-quality/home-desktop.json",
+      "bytes": 856862,
+      "sha256": "e0e1a7c6a89316d9936b43fe06d3cd765a17daf81d99e5d8a17649daefd4085b"
+    },
+    {
+      "path": "reports/performance-2026-09-30/hero-quality/home-mobile.html",
+      "storedAt": "reports/performance-2026-09-30/hero-quality/home-mobile.html",
+      "bytes": 771376,
+      "sha256": "fa3b21fc044cc16926364363cc3fbc57db61ab5d8c05e8777a027f2818f32661"
+    },
+    {
+      "path": "reports/performance-2026-09-30/hero-quality/home-mobile.json",
+      "storedAt": "reports/performance-2026-09-30/hero-quality/home-mobile.json",
+      "bytes": 699913,
+      "sha256": "34f3e56ea6de084746ed89df07497979724c7d8b7c3b45217bd7d99e02a4576d"
+    },
+    {
+      "path": "reports/performance-2026-09-30/hero-quality/summary.json",
+      "storedAt": "reports/performance-2026-09-30/hero-quality/summary.json",
+      "bytes": 630,
+      "sha256": "f45fe04e1f4e0a6d1e654cf8ad53c0d56ed83749c027e89b39f49cefeae2cd31"
     },
     {
       "path": "reports/performance-2026-09-30/optimized/architecture-mobile.html",
@@ -30847,10 +30853,5 @@
       "bytes": 136919571
     }
   ],
-  "excluded": [
-    {
-      "path": ".env.local",
-      "reason": "Only an expired personal VERCEL_OIDC_TOKEN was present. App admin password and its hash are included; VPS requires no platform account token."
-    }
-  ]
+  "excluded": []
 }

@@ -4,7 +4,7 @@
 
 Paketin kaynağı güncel `ozan-portfolio-local` çalışma dizinidir; eski GitHub kopyası değildir. Aktarım hedefi `ahmetagsakalli/16-mm-production` deposudur. Canlı site değiştirilmemiştir.
 
-5.129 kaynak dosyası `.transfer/source-manifest.json` içinde SHA-256 ile kayıtlıdır. `public/` altında 4.099 dosya vardır (687.063.724 bayt). Galeri klasör adları ve özgün dosyalar korunmuştur. Boş kaynak klasörler manifestte tutulur; `verify-transfer.py --restore-empty-directories` bunları oluşturur.
+5.130 kaynak dosyası `.transfer/source-manifest.json` içinde SHA-256 ile kayıtlıdır. `public/` altında 4.099 dosya vardır (687.063.724 bayt). Galeri klasör adları ve özgün dosyalar korunmuştur. Boş kaynak klasörler manifestte tutulur; `verify-transfer.py --restore-empty-directories` bunları oluşturur.
 
 Canlı panelden alınan `.transfer/live-content.json` şu içerikleri kapsar:
 
@@ -32,7 +32,7 @@ Yerel DB'nin ayrıca tutarlı bir kopyası `.transfer/local-cms-consistent.sqlit
 - Mevcut `.next` klasörü 837 dosyalık `.transfer/runtime/next-local-macos.tar.gz` arşivindedir.
 - Mevcut node_modules içeriği 23.989 dosya/bağlantılık `.transfer/runtime/node-modules-macos-arm64.tar.gz` arşivindedir. Linux'ta bu Mac arşivi yerine kilit dosyasıyla yeniden kurulum yapılır.
 - İki büyük MP4 dosyası `.transfer/media-parts/` altında kayıpsız parçalara ayrılmıştır. `restore-transfer.mjs` tam dosyayı aynı SHA-256 ile geri kurar. `build:vps` bunu otomatik yapar.
-- Herhangi bir uygulama şifresi gizlenmemiştir. Kaynak `.env.local` yalnızca süresi geçmiş kişisel Vercel hesap oturumu (`VERCEL_OIDC_TOKEN`) içeriyordu; uygulamaya ait olmayan bu hesap tokeni pakete alınmadı. Anahtar adı `.transfer/source-files/.env.local.keys-only.txt` içinde belgelidir.
+- Kaynak `.env.local` dosyasının tamamı, talep doğrultusunda `.transfer/source-files/.env.local` içinde aynen korunmuştur. İçindeki Vercel OIDC oturumunun 16 Eylül 2026 22:27:35 UTC tarihinde sona erdiği doğrulanmıştır. Bu eski dosya kurulumda kullanılmaz; VPS için `.env.example` kopyalanıp düzenlenir. Uygulama giriş bilgileri ayrıca ADMIN-GIRIS.md içindedir.
 
 ## Doğrulama
 
