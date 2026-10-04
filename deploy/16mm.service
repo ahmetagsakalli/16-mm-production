@@ -1,0 +1,20 @@
+[Unit]
+Description=16mm Production
+After=network.target
+
+[Service]
+Type=simple
+User=16mm
+Group=16mm
+WorkingDirectory=/opt/16mm-production
+Environment=NODE_ENV=production
+EnvironmentFile=/opt/16mm-production/.env.local
+ExecStart=/usr/bin/node node_modules/next/dist/bin/next start --hostname 127.0.0.1 --port 3000
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=30
+KillSignal=SIGTERM
+UMask=0077
+
+[Install]
+WantedBy=multi-user.target

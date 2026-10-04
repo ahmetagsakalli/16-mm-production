@@ -1,0 +1,82 @@
+{
+  "groups": {
+    "1- MİMARİ": {
+      "category": "architecture",
+      "title": {
+        "tr": "Mimari",
+        "en": "Architecture"
+      }
+    },
+    "2- MAĞAZA": {
+      "category": "retail",
+      "title": {
+        "tr": "Mağaza",
+        "en": "Retail"
+      }
+    },
+    "3- ÜRÜN": {
+      "category": "product",
+      "title": {
+        "tr": "Ürün",
+        "en": "Product"
+      }
+    },
+    "4- OTEL": {
+      "category": "hotels",
+      "title": {
+        "tr": "Otel",
+        "en": "Hotels"
+      }
+    },
+    "5- AYDINLATMA": {
+      "category": "lighting",
+      "title": {
+        "tr": "Aydınlatma",
+        "en": "Lighting"
+      }
+    },
+    "6- GIDA": {
+      "category": "food",
+      "title": {
+        "tr": "Gıda",
+        "en": "Food"
+      }
+    },
+    "7- MÜZİK": {
+      "category": "music",
+      "title": {
+        "tr": "Müzik",
+        "en": "Music"
+      }
+    },
+    "8- FUAR": {
+      "category": "exhibitions",
+      "title": {
+        "tr": "Fuar",
+        "en": "Exhibitions"
+      }
+    },
+    "zz Detay": {
+      "category": "architecture",
+      "title": {
+        "tr": "Detay",
+        "en": "Details"
+      }
+    },
+    "9- Talking Head": {
+      "title": {
+        "tr": "Talking Head",
+        "en": "Talking Head"
+      },
+      "category": "talking-head"
+    },
+    "10- ORGANİZASYON": {
+      "title": {
+        "tr": "ORGANİZASYON",
+        "en": "ORGANİZASYON"
+      },
+      "category": "events"
+    }
+  },
+  "projects": {}
+}

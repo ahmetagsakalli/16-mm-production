@@ -1,0 +1,5 @@
+export const editorialSchema = `
+CREATE TABLE IF NOT EXISTS homepage(id INTEGER PRIMARY KEY CHECK(id=1), data TEXT NOT NULL, version INTEGER NOT NULL DEFAULT 1);
+CREATE TABLE IF NOT EXISTS blog_posts(id TEXT PRIMARY KEY, draft TEXT NOT NULL, published TEXT, version INTEGER NOT NULL DEFAULT 1, deleted INTEGER NOT NULL DEFAULT 0, updated_at INTEGER NOT NULL, published_at INTEGER);
+CREATE TABLE IF NOT EXISTS editorial_migrations(id TEXT PRIMARY KEY, applied_at INTEGER NOT NULL);
+`;

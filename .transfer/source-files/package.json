@@ -1,0 +1,44 @@
+{
+  "name": "ozan-b-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "build": "node scripts/prepare-media.mjs && node --import tsx scripts/initialize-editorial.ts && next build --webpack",
+    "start": "next start --hostname 127.0.0.1",
+    "optimize": "node scripts/prepare-media.mjs",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test:images": "node --test scripts/optimize-images.test.mjs",
+    "import:gallery": "node scripts/import-gallery.mjs",
+    "test:gallery": "node --test scripts/gallery.test.mjs",
+    "verify:gallery": "node scripts/verify-gallery.mjs",
+    "test:admin": "tsx --test tests/cms.test.ts tests/editorial.test.ts",
+    "admin:password": "tsx scripts/admin-password.ts"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@libsql/client": "^0.18.0",
+    "@node-rs/argon2": "^2.2.1",
+    "@vercel/blob": "^2.8.0",
+    "next": "16.3.5",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "sharp": "^0.34.5",
+    "zod": "^4.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^24",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "9.39.5",
+    "eslint-config-next": "16.3.5",
+    "tsx": "^4.23.15",
+    "typescript": "^5"
+  },
+  "packageManager": "pnpm@11.19.0",
+  "engines": {
+    "node": ">=24 <25"
+  }
+}

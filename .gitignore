@@ -1,0 +1,12 @@
+# Current runtime folders are included as full archives in .transfer/runtime/.
+node_modules/
+.next/
+# Personal account session tokens do not belong to the application's VPS setup.
+.env.local
+.env.*.local
+# Running SQLite sidecars are not needed; consistent snapshots are included.
+.data/cms.sqlite-wal
+.data/cms.sqlite-shm
+# Exact video bytes are included in verified Git LFS chunks and restored by build:vps.
+/assets/gallery/originals/8- FUAR/Storks İJS 2026 Fuar rev-3.mp4
+/public/media/gallery/8-fuar-94c89f/storks-ijs-2026-fuar-rev-3-ed64eb22-f6bc117cafeb.mp4

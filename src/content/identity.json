@@ -1,0 +1,182 @@
+{
+  "logo": {
+    "src": "/media/identity/16mm-production-01006112ec.webp",
+    "width": 640,
+    "height": 266
+  },
+  "portrait": {
+    "src": "/media/identity/ozan-arslan-847eefdb7b.webp",
+    "width": 854,
+    "height": 1280
+  },
+  "references": [
+    {
+      "name": "Antwell Suites",
+      "src": "/media/identity/antwell-suites-e78ca88f68.webp",
+      "width": 353,
+      "height": 216
+    },
+    {
+      "name": "Artside Mimarlık",
+      "src": "/media/identity/artside-mimarlik-f074dccff2.webp",
+      "width": 420,
+      "height": 165
+    },
+    {
+      "name": "Casa Gaia",
+      "src": "/media/identity/casa-gaia-9f80b1380c.webp",
+      "width": 225,
+      "height": 225
+    },
+    {
+      "name": "Emaar",
+      "src": "/media/identity/emaar-a2d35dbe9d.webp",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "name": "Fitoz",
+      "src": "/media/identity/fitoz-1782abe490.webp",
+      "width": 420,
+      "height": 279
+    },
+    {
+      "name": "Hexalight",
+      "src": "/media/identity/hexalight-ba079a8e27.webp",
+      "width": 420,
+      "height": 81
+    },
+    {
+      "name": "Highlight",
+      "src": "/media/identity/highlight-a3c0e0f776.webp",
+      "width": 264,
+      "height": 128
+    },
+    {
+      "name": "Hyatt House",
+      "src": "/media/identity/hyatt-house-10f56c74f9.webp",
+      "width": 420,
+      "height": 449
+    },
+    {
+      "name": "İda Trio",
+      "src": "/media/identity/ida-trio-9a5d01d135.webp",
+      "width": 152,
+      "height": 73
+    },
+    {
+      "name": "Kara Üzüm",
+      "src": "/media/identity/kara-uzum-793ad1c9f4.webp",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "name": "Lizay",
+      "src": "/media/identity/lizay-b031c4eff6.webp",
+      "width": 420,
+      "height": 236
+    },
+    {
+      "name": "Lizera",
+      "src": "/media/identity/lizera-a9e5f83f3c.webp",
+      "width": 420,
+      "height": 162
+    },
+    {
+      "name": "Markaled",
+      "src": "/media/identity/markaled-f5eb28dc52.webp",
+      "width": 420,
+      "height": 96
+    },
+    {
+      "name": "MK Illumination",
+      "src": "/media/identity/mk-illumination-f3f4358771.webp",
+      "width": 420,
+      "height": 252
+    },
+    {
+      "name": "MS Sparkle Light",
+      "src": "/media/identity/ms-sparkle-light-ed80fb750d.webp",
+      "width": 285,
+      "height": 73
+    },
+    {
+      "name": "MyHome Architecture",
+      "src": "/media/identity/myhome-architecture-3efd614c2d.webp",
+      "width": 420,
+      "height": 71
+    },
+    {
+      "name": "NA Lightstyle",
+      "src": "/media/identity/na-lightstyle-2b2f2c54a1.webp",
+      "width": 420,
+      "height": 69
+    },
+    {
+      "name": "NKA Mimarlık",
+      "src": "/media/identity/nka-mimarlik-0f01a1750c.webp",
+      "width": 420,
+      "height": 420
+    },
+    {
+      "name": "Olivera",
+      "src": "/media/identity/olivera-fe20cd8fbf.webp",
+      "width": 420,
+      "height": 348
+    },
+    {
+      "name": "Platform Office",
+      "src": "/media/identity/platform-office-a09554a6a4.webp",
+      "width": 420,
+      "height": 84
+    },
+    {
+      "name": "Prolux",
+      "src": "/media/identity/prolux-cc46f8a4ce.webp",
+      "width": 420,
+      "height": 161
+    },
+    {
+      "name": "Ramada",
+      "src": "/media/identity/ramada-616a9a4c6f.webp",
+      "width": 420,
+      "height": 315
+    },
+    {
+      "name": "Redi LED",
+      "src": "/media/identity/redi-led-2459f574b0.webp",
+      "width": 360,
+      "height": 205
+    },
+    {
+      "name": "Schöner",
+      "src": "/media/identity/schoner-4360557ca1.webp",
+      "width": 420,
+      "height": 264
+    },
+    {
+      "name": "Storks Diamond",
+      "src": "/media/identity/storks-diamond-445e98348c.webp",
+      "width": 420,
+      "height": 594
+    },
+    {
+      "name": "Teras Otel",
+      "src": "/media/identity/teras-otel-5492fc440c.webp",
+      "width": 420,
+      "height": 279
+    },
+    {
+      "name": "Urban Lumina",
+      "src": "/media/identity/urban-lumina-6ba054d05b.webp",
+      "width": 420,
+      "height": 216
+    },
+    {
+      "name": "Vackerlite",
+      "src": "/media/identity/vackerlite-c46aeaea16.webp",
+      "width": 420,
+      "height": 210
+    }
+  ]
+}

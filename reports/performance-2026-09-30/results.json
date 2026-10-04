@@ -1,0 +1,114 @@
+{
+  "date": "2026-09-30",
+  "scope": "local production Lighthouse lab audit",
+  "results": [
+    {
+      "name": "home-mobile",
+      "route": "/",
+      "formFactor": "mobile",
+      "scores": {
+        "performance": 94,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "fcp": 902,
+      "lcp": 3132,
+      "cls": 0,
+      "tbt": 55,
+      "transferBytes": 891712,
+      "error": null,
+      "report": "hero-quality-final/home-mobile.html"
+    },
+    {
+      "name": "home-desktop",
+      "route": "/",
+      "formFactor": "desktop",
+      "scores": {
+        "performance": 100,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "fcp": 235,
+      "lcp": 611,
+      "cls": 0,
+      "tbt": 0,
+      "transferBytes": 1225589,
+      "error": null,
+      "report": "hero-quality-final/home-desktop.html"
+    },
+    {
+      "name": "contact-mobile",
+      "route": "/contact",
+      "formFactor": "mobile",
+      "scores": {
+        "performance": 97,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "fcp": 772,
+      "lcp": 2560,
+      "cls": 0,
+      "tbt": 20,
+      "transferBytes": 358338,
+      "error": null,
+      "report": "final/contact-mobile.html"
+    },
+    {
+      "name": "architecture-mobile",
+      "route": "/portfolio/architecture",
+      "formFactor": "mobile",
+      "scores": {
+        "performance": 94,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "fcp": 803,
+      "lcp": 3102,
+      "cls": 0,
+      "tbt": 20,
+      "transferBytes": 896284,
+      "error": null,
+      "report": "final/architecture-mobile.html"
+    },
+    {
+      "name": "project-mobile",
+      "route": "/projects/3-urun-49d407",
+      "formFactor": "mobile",
+      "scores": {
+        "performance": 94,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "fcp": 1057,
+      "lcp": 3014,
+      "cls": 0,
+      "tbt": 19,
+      "transferBytes": 702459,
+      "error": null,
+      "report": "final/project-mobile.html"
+    },
+    {
+      "name": "video-mobile",
+      "route": "/projects/8-fuar-94c89f",
+      "formFactor": "mobile",
+      "scores": {
+        "performance": 96,
+        "accessibility": 100,
+        "best-practices": 100,
+        "seo": 100
+      },
+      "fcp": 880,
+      "lcp": 2693,
+      "cls": 0,
+      "tbt": 32,
+      "transferBytes": 752777,
+      "error": null,
+      "report": "video-priority/video-mobile.html"
+    }
+  ]
+}

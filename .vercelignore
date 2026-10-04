@@ -1,0 +1,21 @@
+node_modules/
+.next/
+.env*
+reports/
+*.tsbuildinfo
+.DS_Store
+
+assets/gallery/originals/
+assets/gallery/local.json
+assets/gallery/cache.json
+assets/gallery/.pipeline-lock/
+assets/client-2026-10-02/
+
+.data/
+
+# The existing gallery is restored from the verified private Blob archive.
+# New Talking Head files are shipped directly alongside prepared identity/home media.
+.transfer/
+public/media/gallery/*
+!public/media/gallery/9-talking-head-bba876
+!public/media/gallery/9-talking-head-bba876/**

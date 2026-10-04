@@ -1,0 +1,52 @@
+.contacts {
+  /* Leave the footer links reachable above the fixed controls at the end of the page. */
+  height: 0;
+}
+
+.button {
+  position: fixed;
+  bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+  z-index: 40;
+  display: grid;
+  place-items: center;
+  width: 56px;
+  height: 56px;
+  border: 1px solid #ffffff35;
+  border-radius: 50%;
+  color: #fff;
+  box-shadow: 0 4px 18px #00000024;
+  transition: transform .2s ease, background-color .2s ease;
+}
+
+.phone {
+  left: calc(24px + env(safe-area-inset-left, 0px));
+  background: #181918;
+}
+
+.whatsapp {
+  right: calc(24px + env(safe-area-inset-right, 0px));
+  background: #128c4a;
+}
+
+.button:focus-visible {
+  outline: 2px solid #181918;
+  outline-offset: 4px;
+  box-shadow: 0 0 0 4px #fff;
+}
+
+@media (hover: hover) {
+  .button:hover { transform: translateY(-3px); }
+  .phone:hover { background: #353833; }
+  .whatsapp:hover { background: #0f773f; }
+}
+
+@media (max-width: 600px) {
+  .contacts { height: 0; }
+  .button { width: 52px; height: 52px; bottom: calc(16px + env(safe-area-inset-bottom, 0px)); }
+  .phone { left: calc(16px + env(safe-area-inset-left, 0px)); }
+  .whatsapp { right: calc(16px + env(safe-area-inset-right, 0px)); }
+}
+
+@media print {
+  .contacts { display: none; }
+}

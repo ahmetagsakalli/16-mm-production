@@ -1,0 +1,29 @@
+{
+  "/media/gallery/1-mimari-4-hilltown-avm-9ab10b/hilltown-ii-36-18cb57fb-cc7bf0037add.webp": {
+    "src": "/media/hero/gallery-18cb57fb72b53baa-70e256a50459-q92.webp",
+    "mobileSrc": "/media/hero/gallery-18cb57fb72b53baa-70e256a50459-q92-mobile-3x4.webp",
+    "width": 1024,
+    "height": 509,
+    "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAAAQAgCdASoQAAgABABoJQBOiP/wPY6b6DMAAP7Z2ib0UOFn6rLkxi8bxXaJS7tR5CPI/7afRhAXAPXgAAA=",
+    "bytes": 96308,
+    "totalBytes": 135164
+  },
+  "/media/gallery/1-mimari-17-acibadem-bodrum-hastanesi-6d242c/ozan-arslan-architecure-photography-7-f3d1b9cb-b61963630f51.webp": {
+    "src": "/media/hero/gallery-f3d1b9cb430d05bf-43bb5fa852fb-q92.webp",
+    "mobileSrc": "/media/hero/gallery-f3d1b9cb430d05bf-43bb5fa852fb-q92-mobile-3x4.webp",
+    "width": 1024,
+    "height": 570,
+    "blurDataURL": "data:image/webp;base64,UklGRlQAAABXRUJQVlA4IEgAAACQAQCdASoQAAkABABoJZQAAWsn94AA/udXAkCsGavh9wjPsNJXoTFrbtFZws6aBwdvdple9yesbTyQYDLVpIpDATJ/1d1bAAA=",
+    "bytes": 191368,
+    "totalBytes": 268656
+  },
+  "/media/gallery/1-mimari-23-emaar-toskana-vadisi-9b7365/toskana-vadisi-detay-gece-63-433d43a7-cf69128cbca4.webp": {
+    "src": "/media/hero/gallery-433d43a7b91c6ca2-47734ef07892-q92.webp",
+    "mobileSrc": "/media/hero/gallery-433d43a7b91c6ca2-47734ef07892-q92.webp",
+    "width": 683,
+    "height": 1024,
+    "blurDataURL": "data:image/webp;base64,UklGRnIAAABXRUJQVlA4IGYAAADQAwCdASoQABgAPxFysFAsJqSisAgBgCIJaACdAB6AIN8/nHs6sQAA/kA/rmRoGpzSMYP6KjaOmcN2XS3R/Emt8oHfjYwkWWxZYz+Y6lK0cv83PwnG5HWshKttvlb2c36tZcGvgAA=",
+    "bytes": 187936,
+    "totalBytes": 187936
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "projectId": "prj_KodCtqSgfsDuq0BMJjS0uZ7xFtHS",
+  "name": "16mm-production",
+  "accountId": "team_5ZbNoaGpcx8byTe4TuBU0ttg",
+  "nodeVersion": "24.x",
+  "production": "dpl_7iBADBo246okFc8byU3iwktJsXfX",
+  "environment": [
+    {
+      "id": "0Zgz4rBErlzTTV5e",
+      "key": "SITE_URL",
+      "target": [
+        "production"
+      ],
+      "fingerprint": "a372883c286828557e959dfef96a7221869237ca2782487722e10dbc502ee849"
+    },
+    {
+      "id": "Qa8m2lfCip5uOwgl",
+      "key": "TURSO_DATABASE_URL",
+      "target": [
+        "preview",
+        "production"
+      ],
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "bXlkdssWWhicgemF",
+      "key": "TURSO_AUTH_TOKEN",
+      "target": [
+        "preview",
+        "production"
+      ],
+      "fingerprint": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "id": "EWoZZTVypEzcHx6P",
+      "key": "BLOB_READ_WRITE_TOKEN",
+      "target": [
+        "production",
+        "preview"
+      ],
+      "fingerprint": "b0987163efa4a49603fc73fbd97005cb720aaca86a1bce61307205f081460e80"
+    }
+  ]
+}

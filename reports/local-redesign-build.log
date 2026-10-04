@@ -1,0 +1,48 @@
+▲ Next.js 16.3.5 (webpack)
+- Environments: .env.local
+✓ Running next.config.ts took 119ms
+- Experiments (use with caution):
+  ✓ globalNotFound
+  ✓ inlineCss
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.4s
+  Running TypeScript ...
+  Finished TypeScript in 1172ms ...
+  Collecting page data using 7 workers ...
+  Generating static pages using 7 workers (0/51) ...
+  Generating static pages using 7 workers (12/51) 
+  Generating static pages using 7 workers (25/51) 
+  Generating static pages using 7 workers (38/51) 
+✓ Generating static pages using 7 workers (51/51) in 558ms
+  Finalizing page optimization ...
+  Collecting build traces ...
+
+Route (app)                                                                                              Revalidate  Expire
+┌ ○ /                                                                                                            1h      1y
+├ ○ /_not-found
+├ ƒ /admin/[[...view]]
+├ ƒ /api/admin/[...path]
+├ ○ /blog
+├ ○ /contact
+├ ƒ /media/uploads/[...path]
+├   /portfolio/[category]
+│ ├ ● /portfolio/architecture                                                                                    1h      1y
+│ ├ ● /portfolio/hotels                                                                                          1h      1y
+│ ├ ● /portfolio/retail                                                                                          1h      1y
+│ └ ● [+10 more paths]
+├   /projects/[slug]
+│ ├ ● /projects/1-mimari-1-emaar-2025-674a2b                                                                     1h      1y
+│ ├ ● /projects/1-mimari-4-hilltown-avm-9ab10b                                                                   1h      1y
+│ ├ ● /projects/1-mimari-7-ayvalik-belediyesi-halil-basyazgan-kucukkoy-cumhuriyet-kultur-merkezi-5a1376          1h      1y
+│ └ ● [+28 more paths]
+├ ○ /robots.txt
+└ ○ /sitemap.xml                                                                                                 1h      1y
+
+
+ƒ Proxy (Middleware)
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+

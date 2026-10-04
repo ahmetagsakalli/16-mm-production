@@ -1,0 +1,63 @@
+.selected { padding: 12px 32px 0; scroll-margin-top: 30px; }
+.heading { text-align: center; }
+.heading h2 { font-size: clamp(28px, 2.7vw, 38px); font-weight: 600; line-height: 1.15; letter-spacing: -.05em; text-transform: uppercase; }
+.heading h2 span { font-weight: 400; color: #73766f; }
+.allProjects { display: inline-flex; align-items: center; gap: 20px; min-height: 40px; margin-top: 20px; padding: 10px 21px; border-radius: 999px; background: #181918; color: #fff; font-size: 12px; line-height: 1.5; }
+.allProjects svg { width: 16px; height: 16px; }
+.allProjects:hover { background: #353833; }
+.categoryList { display: flex; flex-wrap: wrap; justify-content: center; gap: 8px 28px; margin: 26px 0 24px; }
+.categoryList button { padding: 8px 0; background: transparent; color: #62665f; font-size: 13px; line-height: 1.5; }
+.categoryList button[aria-pressed='true'] { color: #181918; text-decoration: underline; text-underline-offset: 7px; text-decoration-thickness: 1px; }
+.categoryList button:hover { color: #181918; }
+.accordion { display: flex; gap: 12px; height: clamp(360px, 33vw, 470px); position: relative; }
+.card { flex: 0 0 clamp(52px, 5.5vw, 76px); position: relative; min-width: 0; overflow: hidden; border-radius: 13px; background: #30352f; color: #fff; transition: flex-basis .6s cubic-bezier(.22, 1, .36, 1), flex-grow .6s cubic-bezier(.22, 1, .36, 1); }
+.card.active { flex: 1 1 0; }
+.card > img, .shade { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.shade { background: linear-gradient(180deg, #00000005 25%, #10160f2b 50%, #10160fcc 100%); pointer-events: none; }
+.choose { position: absolute; inset: 0; z-index: 1; width: 100%; padding: 0; background: transparent; color: #fff; }
+.verticalTitle { position: absolute; bottom: 24px; left: 50%; max-height: calc(100% - 48px); writing-mode: vertical-rl; transform: translateX(-50%) rotate(180deg); white-space: nowrap; text-overflow: ellipsis; overflow: hidden; font-size: 14px; line-height: 1.4; }
+.active .verticalTitle { opacity: 0; }
+.details { display: none; position: absolute; inset: 0; z-index: 2; align-items: flex-end; justify-content: center; padding: 26px 84px; }
+.active .details { display: flex; }
+.details h3 { max-width: 650px; min-width: 0; text-align: center; font-size: clamp(21px, 2vw, 28px); line-height: 1.25; font-weight: 500; letter-spacing: -.04em; text-wrap: balance; overflow-wrap: anywhere; animation: captionIn .35s ease both; }
+.openArrow { position: absolute; right: 22px; bottom: 22px; display: grid; place-items: center; width: 44px; height: 44px; border: 1px solid #ffffff80; border-radius: 50%; transition: background .2s; }
+.openArrow svg { width: 23px; height: 23px; }
+.details:hover .openArrow { background: #ffffff24; }
+.choose:focus-visible, .details:focus-visible { outline: 2px solid #fff; outline-offset: -6px; border-radius: 13px; }
+.controls { display: flex; justify-content: center; gap: 10px; margin-top: 22px; }
+.controls button { display: grid; place-items: center; width: 44px; height: 44px; padding: 0; border-radius: 50%; border: 1px solid #18191830; background: #fff; color: #62665f; transition: color .2s, background .2s; }
+.controls button:first-child svg { transform: rotate(180deg); }
+.controls svg { width: 20px; height: 20px; }
+.controls button:hover { background: #181918; color: #fff; }
+.empty { padding: 48px 20px; text-align: center; color: #62665f; }
+@keyframes captionIn { from { opacity: 0; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
+@media (max-width: 1000px) and (min-width: 701px) {
+  .selected { padding-inline: 8px; }
+  .accordion { gap: 8px; height: 380px; }
+  .card { flex-basis: 46px; }
+  .details { padding: 24px 64px 24px 24px; }
+  .details h3 { font-size: 22px; }
+  .openArrow { width: 36px; height: 36px; right: 14px; bottom: 20px; }
+}
+@media (max-width: 700px) {
+  .selected { padding: 0; }
+  .heading h2 { font-size: 29px; }
+  .heading h2 span { display: block; }
+  .allProjects { margin-top: 18px; }
+  .categoryList { gap: 5px 20px; margin: 22px 8px; }
+  .categoryList button { font-size: 12px; }
+  .accordion { height: clamp(320px, 100vw, 430px); overflow-x: auto; overflow-y: hidden; scroll-snap-type: x mandatory; scrollbar-width: none; overscroll-behavior-x: contain; gap: 12px; border-radius: 12px; }
+  .accordion::-webkit-scrollbar { display: none; }
+  .card, .card.active { flex: 0 0 88%; scroll-snap-align: start; transition: none; border-radius: 12px; }
+  .card:only-child { flex-basis: 100%; }
+  .choose { display: none; }
+  .details, .active .details { display: flex; padding: 24px 66px 24px 20px; justify-content: flex-start; }
+  .details h3 { text-align: left; font-size: 23px; animation: none; }
+  .openArrow { width: 36px; height: 36px; right: 16px; bottom: 23px; }
+  .openArrow svg { width: 20px; height: 20px; }
+  .controls { margin-top: 18px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .card, .openArrow, .controls button { transition: none; }
+  .details h3 { animation: none; }
+}

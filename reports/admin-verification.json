@@ -1,0 +1,47 @@
+{
+  "content": {
+    "projects": 30,
+    "photos": 654,
+    "videos": 1,
+    "originalsPreserved": true
+  },
+  "unitTests": 7,
+  "galleryRegressionTests": 2,
+  "http": {
+    "passed": 11,
+    "checks": [
+      "Unauthenticated API blocked",
+      "Production setup blocked",
+      "Cross-origin writes blocked",
+      "Secure login and session cookie",
+      "Actual upload converts to WebP and draft media stays private",
+      "Unpublished project is not public",
+      "New project published without rebuild, media accessible",
+      "Slug changes redirect old URLs",
+      "Noindex, security headers and content-only export",
+      "Trash removes public page while retaining original files",
+      "Logout revokes session"
+    ]
+  },
+  "httpExtra": {
+    "passed": 3,
+    "checks": [
+      "Short video converted to MP4/preview/WebP poster; authenticated draft and public range playback verified",
+      "Settings publish updates cached homepage and contact",
+      "Password change revokes existing sessions"
+    ]
+  },
+  "browser": [
+    "Password login in isolated test database",
+    "Project search",
+    "Edit and save draft",
+    "Mobile editor at 390px: no horizontal overflow",
+    "Mobile navigation closes after selection",
+    "Settings form",
+    "Public homepage: no missing images or horizontal overflow"
+  ],
+  "build": "passed",
+  "typecheck": "passed",
+  "lint": "passed",
+  "deployment": "local only"
+}

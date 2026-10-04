@@ -1,0 +1,8 @@
+{
+  "passed": 3,
+  "checks": [
+    "Short video converted to MP4/preview/WebP poster; authenticated draft and public range playback verified",
+    "Settings publish updates cached homepage and contact",
+    "Password change revokes existing sessions"
+  ]
+}

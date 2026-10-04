@@ -1,0 +1,114 @@
+{
+  "architecture-02": {
+    "src": "/images/architecture-02-fab5efcc05.webp",
+    "width": 2560,
+    "height": 1741,
+    "blurDataURL": "data:image/webp;base64,UklGRmgAAABXRUJQVlA4IFwAAAAQAgCdASoQAAsABABoJQApgC3pXFkT0iQAAPltnaO4ic0GKK80FrkFDvwOFDOP/LZmffc8L5rCWL/JkbXgoSis1WlXGNCsYaUlGSPIesl8znQsiy3EmpvWg4AAAA==",
+    "bytes": 520326,
+    "originalBytes": 802273
+  },
+  "architecture-03": {
+    "src": "/images/architecture-03-3dc031efe9.webp",
+    "width": 2560,
+    "height": 2147,
+    "blurDataURL": "data:image/webp;base64,UklGRmQAAABXRUJQVlA4IFgAAAAQAgCdASoQAA0ABABoJbACdAEYEK3ksCoAAMsoRih55kHo+4FeZmTfNFK7hy5gm2zhhLPzEgjwARoSSQw8lvJ1DWU9dFI4KIRs7lGLKZEQKatF6EusAAAA",
+    "bytes": 902812,
+    "originalBytes": 1176277
+  },
+  "architecture-04": {
+    "src": "/images/architecture-04-a82daf7156.webp",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAwAgCdASoQAAsABABoJYwC7AYuR2VgQuQoAAD8d4qMfVKoApNqizTkJW4rwiGVDzQDKU6/lhZ2jRDjp36TRxy3maJEdsrQggViN5iLvcuxysw+RMAAAA==",
+    "bytes": 309118,
+    "originalBytes": 607573
+  },
+  "clip-poster": {
+    "src": "/images/clip-poster-5ab1edb19b.webp",
+    "width": 1920,
+    "height": 1080,
+    "blurDataURL": "data:image/webp;base64,UklGRmAAAABXRUJQVlA4IFQAAAAwAgCdASoQAAkABABoJYwCdAEQ5Vv/BUc2AAD+8JiUv0g/nyDldV8fKHyowtIgWyEVGvfE9lgQ/VnN1ClCOva6tnFNBYw/yuSX7nXe7/DM0YIAAAA=",
+    "bytes": 184326,
+    "originalBytes": 319637
+  },
+  "film-poster": {
+    "src": "/images/film-poster-f5af946188.webp",
+    "width": 1280,
+    "height": 720,
+    "blurDataURL": "data:image/webp;base64,UklGRkwAAABXRUJQVlA4IEAAAADQAQCdASoQAAkABABoJQBOgB3udsGsAAD+wiFovUHqzFpc6OkPIM2Uji8rbqshnf9mQns9Vv8GBw1sfvobWMAA",
+    "bytes": 79748,
+    "originalBytes": 143664
+  },
+  "hero": {
+    "src": "/images/hero-56571eb64c.webp",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRl4AAABXRUJQVlA4IFIAAADwAQCdASoQAAsABABoJYwCdADPonshJYAA/aiH+n+bU96HEGV7HlJCxRZKmtqvuSvUOr9EFu6mZynqZAALvl9kdlJleyS/Vuv+x1zUrQQJQAAA",
+    "bytes": 711248,
+    "originalBytes": 1023485
+  },
+  "interior-01": {
+    "src": "/images/interior-01-ead7cc1b7d.webp",
+    "width": 2560,
+    "height": 1920,
+    "blurDataURL": "data:image/webp;base64,UklGRmoAAABXRUJQVlA4IF4AAADwAQCdASoQAAwABABoJQBOgBeG7Z+RxwAA/fBVeDNsKgHuaEM7Nbh7kXjOwxu1bVebybhrhrojjP1+uk3urSIE3TdxnkFtRRDWvd+XrMaAsBCmx0gKo0JALRv/AAAA",
+    "bytes": 475728,
+    "originalBytes": 833162
+  },
+  "interior-02": {
+    "src": "/images/interior-02-9387e953ef.webp",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAADwAQCdASoQAAsABABoJZQC7ADo1iOqT0AA4gQhu5Z17DMwWtyn/mr/Q+19VX8IEpALmXFBm7ft3wzCKYuCcjUwf9tuPOiRTcjDHO4WpPQ1ZV8OiQAAAA==",
+    "bytes": 361858,
+    "originalBytes": 674416
+  },
+  "interior-03": {
+    "src": "/images/interior-03-9bb2f5167c.webp",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRmwAAABXRUJQVlA4IGAAAAAQAgCdASoQAAsABABoJaACdAChQEGqXGgAAP5gLIaYTO51BF2tQaljrWFqscLFaylG6CJaJZT8e6Eq277eTDZU5UBvn9Z/F7aPMGfNp5VY/3NSZ6s1gAgEu+72vj7mAAA=",
+    "bytes": 1167506,
+    "originalBytes": 1434628
+  },
+  "interior-04": {
+    "src": "/images/interior-04-e73a6a1aa5.webp",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRmIAAABXRUJQVlA4IFYAAAAQAgCdASoQAAsABABoJZAC7AENyzaWtzxAAPz7H81NlUSh2w/Tdqq+C36SR7CdXxRBEw7+UekgFdhOKfKBbUKJoLBd2ynHs4kUpqam3uqrYup8XIWAAA==",
+    "bytes": 456008,
+    "originalBytes": 726295
+  },
+  "product-01": {
+    "src": "/images/product-01-36e9eb836c.webp",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRlgAAABXRUJQVlA4IEwAAADQAQCdASoQAAsABABoJZwAApETjtUAAAD+7g/7p7Hmgjcbqyvclm+hzwDz/8MN9AvrnZSDfbYTNblFVbaN9UV3ZXSVAQh3Wvj+MQAA",
+    "bytes": 370540,
+    "originalBytes": 716056
+  },
+  "product-02": {
+    "src": "/images/product-02-24579b5907.webp",
+    "width": 1704,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRkgAAABXRUJQVlA4IDwAAADwAgCdASoQABgAPxF0sVCsJqSisAgBgCIJZwAAg+R5AAD+7PqwUaJdRbEhPBCXYDdjzE1hLeAGbe9CAAA=",
+    "bytes": 59516,
+    "originalBytes": 699661
+  },
+  "product-03": {
+    "src": "/images/product-03-0b30c65924.webp",
+    "width": 1708,
+    "height": 2560,
+    "blurDataURL": "data:image/webp;base64,UklGRlIAAABXRUJQVlA4IEYAAAAwAwCdASoQABgAPxF0sVCsJqSisAgBgCIJQBOmUACJszwAAP7dvqk2KF28tWOig2KuDlAZhFOjw6folbjVcu7FFXDyQAAA",
+    "bytes": 58516,
+    "originalBytes": 613362
+  },
+  "product-04": {
+    "src": "/images/product-04-705e5f461c.webp",
+    "width": 2560,
+    "height": 1707,
+    "blurDataURL": "data:image/webp;base64,UklGRlYAAABXRUJQVlA4IEoAAAAQAgCdASoQAAsABABoJQBOgB7Hzuls576AAP7oapCDNKvhD10AxlT6Ucqou6ye7sx6JXuIVI5F5Zfrf5x7eeIz4gKEW8R1mWIAAA==",
+    "bytes": 592596,
+    "originalBytes": 836044
+  }
+}

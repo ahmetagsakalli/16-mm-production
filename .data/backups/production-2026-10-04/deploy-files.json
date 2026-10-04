@@ -1,0 +1,2021 @@
+{
+  "framework": {
+    "name": "Next.js",
+    "slug": "nextjs"
+  },
+  "basePath": "/Users/ahmetagsakalli/Developer/ozan-portfolio-local",
+  "fileCount": 287,
+  "totalSize": 43102880,
+  "ignoredCount": 110,
+  "ignored": [
+    ".data/backups",
+    ".data/cms.sqlite",
+    ".data/cms.sqlite-shm",
+    ".data/cms.sqlite-wal",
+    ".env.example",
+    ".env.local",
+    ".gitignore",
+    ".next",
+    ".vercel",
+    "assets/client-2026-10-02/branding",
+    "assets/client-2026-10-02/contact.jpeg",
+    "assets/client-2026-10-02/home-selection-status.json",
+    "assets/client-2026-10-02/talking-head",
+    "assets/gallery/cache.json",
+    "assets/gallery/local.json",
+    "assets/gallery/originals/1- MİMARİ",
+    "assets/gallery/originals/2- MAĞAZA",
+    "assets/gallery/originals/3- ÜRÜN",
+    "assets/gallery/originals/4- OTEL",
+    "assets/gallery/originals/5- AYDINLATMA",
+    "assets/gallery/originals/6- GIDA",
+    "assets/gallery/originals/7- MÜZİK",
+    "assets/gallery/originals/8- FUAR",
+    "assets/gallery/originals/9- Talking Head",
+    "assets/gallery/originals/zz Detay",
+    "node_modules",
+    "public/media/gallery/1-mimari-1-emaar-2025-674a2b",
+    "public/media/gallery/1-mimari-12-maslak-42-553c0c",
+    "public/media/gallery/1-mimari-17-acibadem-bodrum-hastanesi-6d242c",
+    "public/media/gallery/1-mimari-20-buyukcekmece-belediyesi-02b636",
+    "public/media/gallery/1-mimari-21-sivil-havacilik-binasi-56412c",
+    "public/media/gallery/1-mimari-23-emaar-toskana-vadisi-9b7365",
+    "public/media/gallery/1-mimari-24-emar-square-residence-1d6791",
+    "public/media/gallery/1-mimari-28-makyol-satis-ofisi-f62c63",
+    "public/media/gallery/1-mimari-4-hilltown-avm-9ab10b",
+    "public/media/gallery/1-mimari-7-ayvalik-belediyesi-halil-basyazgan-kucukkoy-cumhuriyet-kultur-merkezi-5a1376",
+    "public/media/gallery/2-magaza-10-koton-9de415",
+    "public/media/gallery/2-magaza-13-storks-aa3545",
+    "public/media/gallery/2-magaza-27-umit-bisiklet-64bdee",
+    "public/media/gallery/2-magaza-28-mado-1f1fb7",
+    "public/media/gallery/2-magaza-30-goreme-muhallebicisi-434b80",
+    "public/media/gallery/2-magaza-4-gizia-fc5533",
+    "public/media/gallery/2-magaza-5-damat-tween-0edcf9",
+    "public/media/gallery/2-magaza-7-birkenstock-ec084a",
+    "public/media/gallery/2-magaza-9-paul-shark-eeb3bf",
+    "public/media/gallery/3-urun-49d407",
+    "public/media/gallery/4-otel-1-antwell-suites-set-1-e28394",
+    "public/media/gallery/4-otel-10-teras-bozcaada-279d5b",
+    "public/media/gallery/4-otel-6-mirage-park-resort-637b09",
+    "public/media/gallery/4-otel-7-ramada-gemlik-3f4418",
+    "public/media/gallery/5-aydinlatma-2505e4",
+    "public/media/gallery/6-gida-a5b2ad",
+    "public/media/gallery/7-muzik-cover-dbc656",
+    "public/media/gallery/7-muzik-konser-dec363",
+    "public/media/gallery/8-fuar-94c89f",
+    "public/media/gallery/zz-detay-b3b010",
+    "reports/16mm-desktop.png",
+    "reports/16mm-verification.json",
+    "reports/admin-dashboard.png",
+    "reports/admin-editor.png",
+    "reports/admin-http-extra.json",
+    "reports/admin-http.json",
+    "reports/admin-login.png",
+    "reports/admin-mobile.png",
+    "reports/admin-simple-editor.png",
+    "reports/admin-simple-mobile.png",
+    "reports/admin-verification.json",
+    "reports/clean-urls-verification.json",
+    "reports/clean-urls.png",
+    "reports/contact-buttons-desktop.png",
+    "reports/contact-buttons-mobile.png",
+    "reports/contact-inquiry-map-2026-10-04.jpg",
+    "reports/contact-inquiry-mobile-2026-10-04.jpg",
+    "reports/contact-redesign-desktop.png",
+    "reports/contact-redesign-mobile.png",
+    "reports/contact-updated.png",
+    "reports/gallery",
+    "reports/gallery-contact-update-2026-10-04.md",
+    "reports/hero-quality-desktop.png",
+    "reports/hero-quality-mobile.png",
+    "reports/home-clean-slideshow-2026-10-04.jpg",
+    "reports/home-client-selection.jpg",
+    "reports/icerik-bekleyenler.md",
+    "reports/inquiry-oval-2026-10-04.jpg",
+    "reports/inquiry-slim-2026-10-04.jpg",
+    "reports/inquiry-white-2026-10-04.jpg",
+    "reports/local-redesign-build.log",
+    "reports/local-redesign-desktop.jpg",
+    "reports/local-redesign.md",
+    "reports/mobile-home-projects.jpg",
+    "reports/performance-2026-09-30",
+    "reports/project-card-overlay.jpg",
+    "reports/project-cards.jpg",
+    "reports/project-gallery-desktop.jpg",
+    "reports/project-gallery-mobile.jpg",
+    "reports/project-redesign-desktop.png",
+    "reports/project-redesign-mobile.png",
+    "reports/project-titles-desktop.png",
+    "reports/reference-marquee-directions.jpg",
+    "reports/reference-marquee.jpg",
+    "reports/selected-accordion-desktop.png",
+    "reports/selected-accordion-mobile.png",
+    "reports/sidebar-contact-icons.jpg",
+    "reports/sidebar-full-height.jpg",
+    "reports/square-gallery-desktop-2026-10-04.jpg",
+    "reports/square-gallery-mobile-2026-10-04.jpg",
+    "reports/three-column-projects.jpg",
+    "reports/vercel-new-project-2026-10-02.md",
+    "reports/vercel-new-project-live.jpg",
+    "tsconfig.tsbuildinfo"
+  ],
+  "directories": [
+    {
+      "path": "public",
+      "fileCount": 166,
+      "size": 40235268
+    },
+    {
+      "path": "assets",
+      "fileCount": 6,
+      "size": 1995343
+    },
+    {
+      "path": "src",
+      "fileCount": 73,
+      "size": 578244
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "fileCount": 1,
+      "size": 166138
+    },
+    {
+      "path": "scripts",
+      "fileCount": 21,
+      "size": 65333
+    },
+    {
+      "path": "tests",
+      "fileCount": 3,
+      "size": 19524
+    },
+    {
+      "path": "VERIFICATION.md",
+      "fileCount": 1,
+      "size": 14713
+    },
+    {
+      "path": "KURULUM.md",
+      "fileCount": 1,
+      "size": 8988
+    },
+    {
+      "path": "README.md",
+      "fileCount": 1,
+      "size": 7680
+    },
+    {
+      "path": "specs",
+      "fileCount": 1,
+      "size": 4942
+    },
+    {
+      "path": "next.config.ts",
+      "fileCount": 1,
+      "size": 2091
+    },
+    {
+      "path": "package.json",
+      "fileCount": 1,
+      "size": 1296
+    },
+    {
+      "path": "run.sh",
+      "fileCount": 1,
+      "size": 757
+    },
+    {
+      "path": "AGENTS.md",
+      "fileCount": 1,
+      "size": 678
+    },
+    {
+      "path": "tsconfig.json",
+      "fileCount": 1,
+      "size": 594
+    },
+    {
+      "path": ".vercelignore",
+      "fileCount": 1,
+      "size": 491
+    },
+    {
+      "path": "next-env.d.ts",
+      "fileCount": 1,
+      "size": 288
+    },
+    {
+      "path": "eslint.config.mjs",
+      "fileCount": 1,
+      "size": 277
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "fileCount": 1,
+      "size": 144
+    },
+    {
+      "path": "vercel.json",
+      "fileCount": 1,
+      "size": 80
+    },
+    {
+      "path": "CLAUDE.md",
+      "fileCount": 1,
+      "size": 11
+    },
+    {
+      "path": ".data",
+      "fileCount": 1,
+      "size": 0
+    },
+    {
+      "path": "reports",
+      "fileCount": 1,
+      "size": 0
+    }
+  ],
+  "largestFiles": [
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-55-3bf4a345-cca77948f2fc-1920.webp",
+      "size": 1926080,
+      "mode": 33188,
+      "sha": "1aecdd252bce0ec6b6290e94970b280aa160b7bd"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-55-3bf4a345-cca77948f2fc-2560.webp",
+      "size": 1926080,
+      "mode": 33188,
+      "sha": "1aecdd252bce0ec6b6290e94970b280aa160b7bd"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-55-3bf4a345-cca77948f2fc.webp",
+      "size": 1926080,
+      "mode": 33188,
+      "sha": "1aecdd252bce0ec6b6290e94970b280aa160b7bd"
+    },
+    {
+      "path": "assets/gallery/deployment.json",
+      "size": 1205333,
+      "mode": 33188,
+      "sha": "83f673746658ce8088ea760eaf10bfff043c1563"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-28-f3709ae7-9fa7947ee671-1920.webp",
+      "size": 1096476,
+      "mode": 33188,
+      "sha": "8096fed8ec3a19d6378ed97b98968e36a680085b"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-28-f3709ae7-9fa7947ee671-2560.webp",
+      "size": 1096476,
+      "mode": 33188,
+      "sha": "8096fed8ec3a19d6378ed97b98968e36a680085b"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-28-f3709ae7-9fa7947ee671.webp",
+      "size": 1096476,
+      "mode": 33188,
+      "sha": "8096fed8ec3a19d6378ed97b98968e36a680085b"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-55-3bf4a345-cca77948f2fc-1280.webp",
+      "size": 977814,
+      "mode": 33188,
+      "sha": "3cb6c12652e0f351c599cf93cf1a9a0da020ed1e"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-67-9f966d34-57078ad662ee-1920.webp",
+      "size": 796608,
+      "mode": 33188,
+      "sha": "84c8b34f97f5119c31196552d539619fa01afb40"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-67-9f966d34-57078ad662ee-2560.webp",
+      "size": 796608,
+      "mode": 33188,
+      "sha": "84c8b34f97f5119c31196552d539619fa01afb40"
+    }
+  ],
+  "files": [
+    {
+      "path": ".data",
+      "size": 0,
+      "mode": 16832
+    },
+    {
+      "path": ".vercelignore",
+      "size": 491,
+      "mode": 33188,
+      "sha": "3ce8c9be15ce58f96f44cca9006b9638da375fc1"
+    },
+    {
+      "path": "AGENTS.md",
+      "size": 678,
+      "mode": 33188,
+      "sha": "8a38a9be445fb29e9ce77bb23d1086eb2dc3d656"
+    },
+    {
+      "path": "assets/client-2026-10-02",
+      "size": 0,
+      "mode": 16832
+    },
+    {
+      "path": "assets/gallery/archive-index.json",
+      "size": 154332,
+      "mode": 33188,
+      "sha": "ddb9347f9aee85eae7da3fdb116806b42640feaa"
+    },
+    {
+      "path": "assets/gallery/config.json",
+      "size": 1501,
+      "mode": 33188,
+      "sha": "18eb3bf5c41194ad135a450b2405ce3324b7910b"
+    },
+    {
+      "path": "assets/gallery/deployment.json",
+      "size": 1205333,
+      "mode": 33188,
+      "sha": "83f673746658ce8088ea760eaf10bfff043c1563"
+    },
+    {
+      "path": "assets/gallery/originals",
+      "size": 0,
+      "mode": 16832
+    },
+    {
+      "path": "assets/gallery/report.json",
+      "size": 634177,
+      "mode": 33188,
+      "sha": "f44967328cb141d14f405e7efdfbe2e817311a4c"
+    },
+    {
+      "path": "CLAUDE.md",
+      "size": 11,
+      "mode": 33188,
+      "sha": "c140473a3a5fbe89301c99d9d0d1b76c5971f2c3"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "size": 277,
+      "mode": 33188,
+      "sha": "784b92de292696f0daeba427225c27ac0b1f0086"
+    },
+    {
+      "path": "KURULUM.md",
+      "size": 8988,
+      "mode": 33188,
+      "sha": "76a127970df4367de4f79e129da71ea8aed7c8b5"
+    },
+    {
+      "path": "next-env.d.ts",
+      "size": 288,
+      "mode": 33188,
+      "sha": "915946e261450f4fb6aab2ca862c8b440b748240"
+    },
+    {
+      "path": "next.config.ts",
+      "size": 2091,
+      "mode": 33188,
+      "sha": "18083943fb66c83d58b98c9075aa48f6953c1b79"
+    },
+    {
+      "path": "package.json",
+      "size": 1296,
+      "mode": 33188,
+      "sha": "f36984a3f6c525cec930c0f44a37b807cad8433d"
+    },
+    {
+      "path": "pnpm-lock.yaml",
+      "size": 166138,
+      "mode": 33188,
+      "sha": "8d69d1b965f69eb6ede62db35e0270c97c43bed7"
+    },
+    {
+      "path": "pnpm-workspace.yaml",
+      "size": 144,
+      "mode": 33188,
+      "sha": "f627838ae3a78a335b0a75367ea8b5248eb05db5"
+    },
+    {
+      "path": "public/fonts/manrope-variable.ttf",
+      "size": 165420,
+      "mode": 33188,
+      "sha": "c44909e751e226f188c3112e011617e6d2ce2408"
+    },
+    {
+      "path": "public/fonts/manrope-variable.woff2",
+      "size": 53680,
+      "mode": 33188,
+      "sha": "fc230f6f9ae6d82a627876b3d22ea3cede025966"
+    },
+    {
+      "path": "public/fonts/OFL.txt",
+      "size": 4384,
+      "mode": 33188,
+      "sha": "5b50f74932f120512afa0c1e61772c7b119f3a4b"
+    },
+    {
+      "path": "public/icon.svg",
+      "size": 323,
+      "mode": 33188,
+      "sha": "5afb13e7fe289c53703cc43e48a4d48a61f4d0b2"
+    },
+    {
+      "path": "public/licenses/bootstrap-icons.txt",
+      "size": 1093,
+      "mode": 33188,
+      "sha": "acac50435cf9dc993396653dcc5335fc4b52efb5"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-2-083a4319-b96d1bd3a2a4-1280.webp",
+      "size": 42824,
+      "mode": 33188,
+      "sha": "96410bd6e7bfa0e784cc4ee119d43af618232ff0"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-2-083a4319-b96d1bd3a2a4-1920.webp",
+      "size": 110438,
+      "mode": 33188,
+      "sha": "1af0406c408cbffe39235a09ebd19de01d12f1ec"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-2-083a4319-b96d1bd3a2a4-2560.webp",
+      "size": 110438,
+      "mode": 33188,
+      "sha": "1af0406c408cbffe39235a09ebd19de01d12f1ec"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-2-083a4319-b96d1bd3a2a4-640.webp",
+      "size": 13896,
+      "mode": 33188,
+      "sha": "e40aa0989816216480e50c999fa031452eb0b2c8"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-2-083a4319-b96d1bd3a2a4-768.webp",
+      "size": 17856,
+      "mode": 33188,
+      "sha": "5898dfe2d84c2ad74d4088f4274fe276426d03ed"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-2-083a4319-b96d1bd3a2a4.webp",
+      "size": 110438,
+      "mode": 33188,
+      "sha": "1af0406c408cbffe39235a09ebd19de01d12f1ec"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-21-3373581e-020be20ae031-1280.webp",
+      "size": 306802,
+      "mode": 33188,
+      "sha": "0e20fa288336a96757d6ad6ebf93b16dbbca9321"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-21-3373581e-020be20ae031-1920.webp",
+      "size": 584562,
+      "mode": 33188,
+      "sha": "f185100b0b13b7f697f9c4d602965160b662c524"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-21-3373581e-020be20ae031-2560.webp",
+      "size": 584562,
+      "mode": 33188,
+      "sha": "f185100b0b13b7f697f9c4d602965160b662c524"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-21-3373581e-020be20ae031-640.webp",
+      "size": 113296,
+      "mode": 33188,
+      "sha": "369bccacb62f53aca3b6f0453e26770069c4795b"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-21-3373581e-020be20ae031-768.webp",
+      "size": 145560,
+      "mode": 33188,
+      "sha": "0fb6c32916a6956085dba0883c3555c4d3c53e4f"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-21-3373581e-020be20ae031.webp",
+      "size": 584562,
+      "mode": 33188,
+      "sha": "f185100b0b13b7f697f9c4d602965160b662c524"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-28-f3709ae7-9fa7947ee671-1280.webp",
+      "size": 588124,
+      "mode": 33188,
+      "sha": "06d1bd1bc387a0f2f942a7b18c835f7e0264af62"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-28-f3709ae7-9fa7947ee671-1920.webp",
+      "size": 1096476,
+      "mode": 33188,
+      "sha": "8096fed8ec3a19d6378ed97b98968e36a680085b"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-28-f3709ae7-9fa7947ee671-2560.webp",
+      "size": 1096476,
+      "mode": 33188,
+      "sha": "8096fed8ec3a19d6378ed97b98968e36a680085b"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-28-f3709ae7-9fa7947ee671-640.webp",
+      "size": 179140,
+      "mode": 33188,
+      "sha": "ed09f810cc4b810e868547894a7a528860cd541e"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-28-f3709ae7-9fa7947ee671-768.webp",
+      "size": 243822,
+      "mode": 33188,
+      "sha": "59d4834d14e40d2f9cca5f2dd1d3871b47ae2380"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-28-f3709ae7-9fa7947ee671.webp",
+      "size": 1096476,
+      "mode": 33188,
+      "sha": "8096fed8ec3a19d6378ed97b98968e36a680085b"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-3-0d7aeffa-0524ba6ce692-1280.webp",
+      "size": 189876,
+      "mode": 33188,
+      "sha": "9c170d97e8410582fc87fb90ee0477cd87d9474f"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-3-0d7aeffa-0524ba6ce692-1920.webp",
+      "size": 352084,
+      "mode": 33188,
+      "sha": "c6540155bda9c2d5a50f837ea4abe3de9b7ac8fb"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-3-0d7aeffa-0524ba6ce692-2560.webp",
+      "size": 530462,
+      "mode": 33188,
+      "sha": "5195cdf03787432dadab5532d7af9e4139b4b4b4"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-3-0d7aeffa-0524ba6ce692-640.webp",
+      "size": 61700,
+      "mode": 33188,
+      "sha": "9aa9068c832fb77a045e0cf21418d31d1b13fb86"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-3-0d7aeffa-0524ba6ce692-768.webp",
+      "size": 84462,
+      "mode": 33188,
+      "sha": "b07febfe1cef8d1f2b4dc88f7fe6a4909c115eb5"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-3-0d7aeffa-0524ba6ce692.webp",
+      "size": 530462,
+      "mode": 33188,
+      "sha": "5195cdf03787432dadab5532d7af9e4139b4b4b4"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-31-33826a61-4e69879bd5e4-1280.webp",
+      "size": 208662,
+      "mode": 33188,
+      "sha": "067f5bbc54203cc92eeb6358a1ada71e1a6fa7a5"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-31-33826a61-4e69879bd5e4-1920.webp",
+      "size": 449984,
+      "mode": 33188,
+      "sha": "5fe7b95f5c887c0e9d629b3e003b031f726f5ce1"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-31-33826a61-4e69879bd5e4-2560.webp",
+      "size": 449984,
+      "mode": 33188,
+      "sha": "5fe7b95f5c887c0e9d629b3e003b031f726f5ce1"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-31-33826a61-4e69879bd5e4-640.webp",
+      "size": 72650,
+      "mode": 33188,
+      "sha": "0cb5f40ef86fbd6117c269f49afd7d5b21880f73"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-31-33826a61-4e69879bd5e4-768.webp",
+      "size": 94252,
+      "mode": 33188,
+      "sha": "ca17efdd113225afde3446491b5a536d522bc15f"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-31-33826a61-4e69879bd5e4.webp",
+      "size": 449984,
+      "mode": 33188,
+      "sha": "5fe7b95f5c887c0e9d629b3e003b031f726f5ce1"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-33-43e3f985-c6fb8f7382dd-1280.webp",
+      "size": 135290,
+      "mode": 33188,
+      "sha": "936877ebadca9dd83c7c73f7aa455e3dcc8ddb4a"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-33-43e3f985-c6fb8f7382dd-1920.webp",
+      "size": 254908,
+      "mode": 33188,
+      "sha": "968e84b6e7089bc7bc4a6e38d60c01c3098b5f84"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-33-43e3f985-c6fb8f7382dd-2560.webp",
+      "size": 254908,
+      "mode": 33188,
+      "sha": "968e84b6e7089bc7bc4a6e38d60c01c3098b5f84"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-33-43e3f985-c6fb8f7382dd-640.webp",
+      "size": 48286,
+      "mode": 33188,
+      "sha": "9c38e29e2a4246b3fe7f1df6104aaacca904830d"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-33-43e3f985-c6fb8f7382dd-768.webp",
+      "size": 62178,
+      "mode": 33188,
+      "sha": "f18cf9df84551eac5161c686a368c23fac573c18"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-33-43e3f985-c6fb8f7382dd.webp",
+      "size": 254908,
+      "mode": 33188,
+      "sha": "968e84b6e7089bc7bc4a6e38d60c01c3098b5f84"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-37-80f2bcc9-5b4eea14fd93-1280.webp",
+      "size": 121652,
+      "mode": 33188,
+      "sha": "0213772bd7a9a0885f090bb1169cbc98d4a45af1"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-37-80f2bcc9-5b4eea14fd93-1920.webp",
+      "size": 214526,
+      "mode": 33188,
+      "sha": "374d1e8127bf7d63530f140ff677b00cf276a498"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-37-80f2bcc9-5b4eea14fd93-2560.webp",
+      "size": 214526,
+      "mode": 33188,
+      "sha": "374d1e8127bf7d63530f140ff677b00cf276a498"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-37-80f2bcc9-5b4eea14fd93-640.webp",
+      "size": 46878,
+      "mode": 33188,
+      "sha": "99f174722bc1a5f4c810f6af54d4e2720994180d"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-37-80f2bcc9-5b4eea14fd93-768.webp",
+      "size": 59364,
+      "mode": 33188,
+      "sha": "4bc4ac06dd531ee90c3ebc4e3adfa9299c231ef4"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-37-80f2bcc9-5b4eea14fd93.webp",
+      "size": 214526,
+      "mode": 33188,
+      "sha": "374d1e8127bf7d63530f140ff677b00cf276a498"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-40-2dd5bee7-78f853e60f83-1280.webp",
+      "size": 86652,
+      "mode": 33188,
+      "sha": "d14b7ac959c973fb07029b5a557ffe36299f64b2"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-40-2dd5bee7-78f853e60f83-1920.webp",
+      "size": 160228,
+      "mode": 33188,
+      "sha": "2afab3dae93ee74f24cabd3c0a92ade09b4305eb"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-40-2dd5bee7-78f853e60f83-2560.webp",
+      "size": 160228,
+      "mode": 33188,
+      "sha": "2afab3dae93ee74f24cabd3c0a92ade09b4305eb"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-40-2dd5bee7-78f853e60f83-640.webp",
+      "size": 34322,
+      "mode": 33188,
+      "sha": "8649b9de6b22ef5c0cd0d049b12d09b6fc962050"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-40-2dd5bee7-78f853e60f83-768.webp",
+      "size": 43312,
+      "mode": 33188,
+      "sha": "e534eed39182d91cdc969e240c5de4a8d42a61e9"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-40-2dd5bee7-78f853e60f83.webp",
+      "size": 160228,
+      "mode": 33188,
+      "sha": "2afab3dae93ee74f24cabd3c0a92ade09b4305eb"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-52-5e27752c-e6d056251c85-1280.webp",
+      "size": 286486,
+      "mode": 33188,
+      "sha": "5e43035f7cf42585840a6e8a61bd2e7b12b05943"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-52-5e27752c-e6d056251c85-1920.webp",
+      "size": 497254,
+      "mode": 33188,
+      "sha": "e27d587163d3d16d40c5e6051b4655992820b405"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-52-5e27752c-e6d056251c85-2560.webp",
+      "size": 497254,
+      "mode": 33188,
+      "sha": "e27d587163d3d16d40c5e6051b4655992820b405"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-52-5e27752c-e6d056251c85-640.webp",
+      "size": 90410,
+      "mode": 33188,
+      "sha": "2405f9b49aae2ce9b2190412cf96a9ee5292a5f5"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-52-5e27752c-e6d056251c85-768.webp",
+      "size": 119146,
+      "mode": 33188,
+      "sha": "1f0356336dfe42def3246f769a17181ab0869885"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-52-5e27752c-e6d056251c85.webp",
+      "size": 497254,
+      "mode": 33188,
+      "sha": "e27d587163d3d16d40c5e6051b4655992820b405"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-55-3bf4a345-cca77948f2fc-1280.webp",
+      "size": 977814,
+      "mode": 33188,
+      "sha": "3cb6c12652e0f351c599cf93cf1a9a0da020ed1e"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-55-3bf4a345-cca77948f2fc-1920.webp",
+      "size": 1926080,
+      "mode": 33188,
+      "sha": "1aecdd252bce0ec6b6290e94970b280aa160b7bd"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-55-3bf4a345-cca77948f2fc-2560.webp",
+      "size": 1926080,
+      "mode": 33188,
+      "sha": "1aecdd252bce0ec6b6290e94970b280aa160b7bd"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-55-3bf4a345-cca77948f2fc-640.webp",
+      "size": 267754,
+      "mode": 33188,
+      "sha": "8f18fea1ebcec1c3f33715f57ac10647e0b29361"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-55-3bf4a345-cca77948f2fc-768.webp",
+      "size": 383300,
+      "mode": 33188,
+      "sha": "485bee23727aceabe01cc521dd168a1642bd288d"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-55-3bf4a345-cca77948f2fc.webp",
+      "size": 1926080,
+      "mode": 33188,
+      "sha": "1aecdd252bce0ec6b6290e94970b280aa160b7bd"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-66-63021101-a57a2acf3deb-1280.webp",
+      "size": 426074,
+      "mode": 33188,
+      "sha": "edfe4c89dfcd96f00bb1ee895595f1d534dded50"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-66-63021101-a57a2acf3deb-1920.webp",
+      "size": 793246,
+      "mode": 33188,
+      "sha": "0a2ac7432bce8088c667b767ba99010aade7e74b"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-66-63021101-a57a2acf3deb-2560.webp",
+      "size": 793246,
+      "mode": 33188,
+      "sha": "0a2ac7432bce8088c667b767ba99010aade7e74b"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-66-63021101-a57a2acf3deb-640.webp",
+      "size": 125094,
+      "mode": 33188,
+      "sha": "4235d0167c2db94c1fda4b6d32b3492b178ff1a4"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-66-63021101-a57a2acf3deb-768.webp",
+      "size": 173610,
+      "mode": 33188,
+      "sha": "f515375d98c36bf173a3a39c0f6f745cbea7b24e"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-66-63021101-a57a2acf3deb.webp",
+      "size": 793246,
+      "mode": 33188,
+      "sha": "0a2ac7432bce8088c667b767ba99010aade7e74b"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-67-9f966d34-57078ad662ee-1280.webp",
+      "size": 333320,
+      "mode": 33188,
+      "sha": "595c6531509b568b5e31d660ca3227a1fc4b5295"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-67-9f966d34-57078ad662ee-1920.webp",
+      "size": 796608,
+      "mode": 33188,
+      "sha": "84c8b34f97f5119c31196552d539619fa01afb40"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-67-9f966d34-57078ad662ee-2560.webp",
+      "size": 796608,
+      "mode": 33188,
+      "sha": "84c8b34f97f5119c31196552d539619fa01afb40"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-67-9f966d34-57078ad662ee-640.webp",
+      "size": 92246,
+      "mode": 33188,
+      "sha": "add738e3aa663df437c5277affd206c9fbbb318c"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-67-9f966d34-57078ad662ee-768.webp",
+      "size": 124762,
+      "mode": 33188,
+      "sha": "e55210d555fc647d8bcc5b2f832a5b07857ad995"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-67-9f966d34-57078ad662ee.webp",
+      "size": 796608,
+      "mode": 33188,
+      "sha": "84c8b34f97f5119c31196552d539619fa01afb40"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-69-ddb73964-5543d8ea9456-1280.webp",
+      "size": 89920,
+      "mode": 33188,
+      "sha": "f01586f50a07580fd35b0543b290ec7319b0ba37"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-69-ddb73964-5543d8ea9456-1920.webp",
+      "size": 174602,
+      "mode": 33188,
+      "sha": "347083627104efbe8a008618703cb396388bd8ae"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-69-ddb73964-5543d8ea9456-2560.webp",
+      "size": 174602,
+      "mode": 33188,
+      "sha": "347083627104efbe8a008618703cb396388bd8ae"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-69-ddb73964-5543d8ea9456-640.webp",
+      "size": 36392,
+      "mode": 33188,
+      "sha": "feddcc165a78578e9a2362297878a393c560dbc4"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-69-ddb73964-5543d8ea9456-768.webp",
+      "size": 47370,
+      "mode": 33188,
+      "sha": "190f81f4c9e4a8aba73a5f33dbb461c2eed88bd4"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-69-ddb73964-5543d8ea9456.webp",
+      "size": 174602,
+      "mode": 33188,
+      "sha": "347083627104efbe8a008618703cb396388bd8ae"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-71-626d6bdc-69e4ce77246c-1280.webp",
+      "size": 246304,
+      "mode": 33188,
+      "sha": "664f3cd6a4d45a3ee2353ff34ade868a0f5fddb2"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-71-626d6bdc-69e4ce77246c-1920.webp",
+      "size": 465100,
+      "mode": 33188,
+      "sha": "2c997fca3155c842cd663e4608efd466dc393d39"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-71-626d6bdc-69e4ce77246c-2560.webp",
+      "size": 465100,
+      "mode": 33188,
+      "sha": "2c997fca3155c842cd663e4608efd466dc393d39"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-71-626d6bdc-69e4ce77246c-640.webp",
+      "size": 83030,
+      "mode": 33188,
+      "sha": "fb704dbc0ac658547b938122409ff1b4244240eb"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-71-626d6bdc-69e4ce77246c-768.webp",
+      "size": 110026,
+      "mode": 33188,
+      "sha": "0aa16abe7de23e8ef29d382741ce830a5d706a1f"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-71-626d6bdc-69e4ce77246c.webp",
+      "size": 465100,
+      "mode": 33188,
+      "sha": "2c997fca3155c842cd663e4608efd466dc393d39"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-73-2a940aa5-f1132bc350a9-1280.webp",
+      "size": 113354,
+      "mode": 33188,
+      "sha": "9cb2c80e15f39f42e150b5376997746ebedb6c37"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-73-2a940aa5-f1132bc350a9-1920.webp",
+      "size": 235282,
+      "mode": 33188,
+      "sha": "901ca4c229cd3b6c5a1e97a460648940533196e9"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-73-2a940aa5-f1132bc350a9-2560.webp",
+      "size": 384732,
+      "mode": 33188,
+      "sha": "68928d0bc40ef1a70392a5b58c1fcf5c30429e17"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-73-2a940aa5-f1132bc350a9-640.webp",
+      "size": 34694,
+      "mode": 33188,
+      "sha": "f0db37294cade9d683d4467d5d201b57d4885b5d"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-73-2a940aa5-f1132bc350a9-768.webp",
+      "size": 47838,
+      "mode": 33188,
+      "sha": "01174bc84a184a7001ebfa51ec5e2559960d27e0"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-73-2a940aa5-f1132bc350a9.webp",
+      "size": 384732,
+      "mode": 33188,
+      "sha": "68928d0bc40ef1a70392a5b58c1fcf5c30429e17"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-75-ea5382ab-9aeb54ecaeb1-1280.webp",
+      "size": 203148,
+      "mode": 33188,
+      "sha": "f38b27a465262fce390103258ee8bed71e289c1c"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-75-ea5382ab-9aeb54ecaeb1-1920.webp",
+      "size": 371322,
+      "mode": 33188,
+      "sha": "2b610207d96f508bb9b8701b436835b12558ac4c"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-75-ea5382ab-9aeb54ecaeb1-2560.webp",
+      "size": 371322,
+      "mode": 33188,
+      "sha": "2b610207d96f508bb9b8701b436835b12558ac4c"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-75-ea5382ab-9aeb54ecaeb1-640.webp",
+      "size": 66630,
+      "mode": 33188,
+      "sha": "665daf2727f9fd69d6db34d3a0f7b4566a2b5824"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-75-ea5382ab-9aeb54ecaeb1-768.webp",
+      "size": 88440,
+      "mode": 33188,
+      "sha": "94cd130ff1d8cd169e6278cf56f4d377d77536ac"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-75-ea5382ab-9aeb54ecaeb1.webp",
+      "size": 371322,
+      "mode": 33188,
+      "sha": "2b610207d96f508bb9b8701b436835b12558ac4c"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-76-19fcc838-6aacdbd8df01-1280.webp",
+      "size": 200748,
+      "mode": 33188,
+      "sha": "78a7d4532625d5b68a3a6efc00d9be9d4bbda42d"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-76-19fcc838-6aacdbd8df01-1920.webp",
+      "size": 355110,
+      "mode": 33188,
+      "sha": "53669ae78a0ac4428a331cbae48e0859cf89f614"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-76-19fcc838-6aacdbd8df01-2560.webp",
+      "size": 355110,
+      "mode": 33188,
+      "sha": "53669ae78a0ac4428a331cbae48e0859cf89f614"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-76-19fcc838-6aacdbd8df01-640.webp",
+      "size": 66590,
+      "mode": 33188,
+      "sha": "d340b479a3b25db0acf65269a86b6a1f4c3b0fc2"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-76-19fcc838-6aacdbd8df01-768.webp",
+      "size": 87776,
+      "mode": 33188,
+      "sha": "3bc11f0b2770822b8049ef0cbda0d4f6f809e972"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-76-19fcc838-6aacdbd8df01.webp",
+      "size": 355110,
+      "mode": 33188,
+      "sha": "53669ae78a0ac4428a331cbae48e0859cf89f614"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-77-5223135d-26fad6beb813-1280.webp",
+      "size": 251152,
+      "mode": 33188,
+      "sha": "2298bca24e9d356ee0c9334abc62f6035bd21040"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-77-5223135d-26fad6beb813-1920.webp",
+      "size": 432640,
+      "mode": 33188,
+      "sha": "6d1ce06d7d91de22004a9e7c5073b0b2e85d5598"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-77-5223135d-26fad6beb813-2560.webp",
+      "size": 432640,
+      "mode": 33188,
+      "sha": "6d1ce06d7d91de22004a9e7c5073b0b2e85d5598"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-77-5223135d-26fad6beb813-640.webp",
+      "size": 71102,
+      "mode": 33188,
+      "sha": "fcd63dadf67d651e060a811835f5a767291d7dfc"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-77-5223135d-26fad6beb813-768.webp",
+      "size": 97322,
+      "mode": 33188,
+      "sha": "5ac3883958cf4a96f415c09021ef66816ef17c12"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-77-5223135d-26fad6beb813.webp",
+      "size": 432640,
+      "mode": 33188,
+      "sha": "6d1ce06d7d91de22004a9e7c5073b0b2e85d5598"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-8-949ac921-fd648edbd803-1280.webp",
+      "size": 128868,
+      "mode": 33188,
+      "sha": "1c87fbfedb6d187db967772d9c21482fe23dc751"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-8-949ac921-fd648edbd803-1920.webp",
+      "size": 128868,
+      "mode": 33188,
+      "sha": "1c87fbfedb6d187db967772d9c21482fe23dc751"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-8-949ac921-fd648edbd803-2560.webp",
+      "size": 128868,
+      "mode": 33188,
+      "sha": "1c87fbfedb6d187db967772d9c21482fe23dc751"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-8-949ac921-fd648edbd803-640.webp",
+      "size": 40736,
+      "mode": 33188,
+      "sha": "ddb8df99d3159abfdd00c7937fd744be781375aa"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-8-949ac921-fd648edbd803-768.webp",
+      "size": 52624,
+      "mode": 33188,
+      "sha": "55ff89d3136c5b9989d2a8f6489705ce94619c1a"
+    },
+    {
+      "path": "public/media/gallery/9-talking-head-bba876/sunumm-8-949ac921-fd648edbd803.webp",
+      "size": 128868,
+      "mode": 33188,
+      "sha": "1c87fbfedb6d187db967772d9c21482fe23dc751"
+    },
+    {
+      "path": "public/media/hero/gallery-18cb57fb72b53baa-70e256a50459-q92-mobile-3x4.webp",
+      "size": 38856,
+      "mode": 33188,
+      "sha": "a38f81ec46c8c1df09d4da86bb4388bdd712e172"
+    },
+    {
+      "path": "public/media/hero/gallery-18cb57fb72b53baa-70e256a50459-q92.webp",
+      "size": 96308,
+      "mode": 33188,
+      "sha": "92b674cc933460f6931a3c529fb06b6ca416199c"
+    },
+    {
+      "path": "public/media/hero/gallery-433d43a7b91c6ca2-47734ef07892-q92.webp",
+      "size": 187936,
+      "mode": 33188,
+      "sha": "b46397a2a7a87ad23ac73a1efa7b3b5982e73bf6"
+    },
+    {
+      "path": "public/media/hero/gallery-f3d1b9cb430d05bf-43bb5fa852fb-q92-mobile-3x4.webp",
+      "size": 77288,
+      "mode": 33188,
+      "sha": "d3dcca738e5b7319e8a78c83adf8d487fc9e628f"
+    },
+    {
+      "path": "public/media/hero/gallery-f3d1b9cb430d05bf-43bb5fa852fb-q92.webp",
+      "size": 191368,
+      "mode": 33188,
+      "sha": "8d2c2110b7028d8175557042ac3e6787ee8ea0e5"
+    },
+    {
+      "path": "public/media/home/gallery-26fad1476462e961-f47f6e5f4df6-1280.webp",
+      "size": 108396,
+      "mode": 33188,
+      "sha": "89d6d2bbde548299f516710724bdff62694a26fa"
+    },
+    {
+      "path": "public/media/home/gallery-26fad1476462e961-f47f6e5f4df6-1920.webp",
+      "size": 108396,
+      "mode": 33188,
+      "sha": "89d6d2bbde548299f516710724bdff62694a26fa"
+    },
+    {
+      "path": "public/media/home/gallery-26fad1476462e961-f47f6e5f4df6-2560.webp",
+      "size": 108396,
+      "mode": 33188,
+      "sha": "89d6d2bbde548299f516710724bdff62694a26fa"
+    },
+    {
+      "path": "public/media/home/gallery-26fad1476462e961-f47f6e5f4df6-640.webp",
+      "size": 49054,
+      "mode": 33188,
+      "sha": "3802748a76de431e9117073cafa37c686a3fa263"
+    },
+    {
+      "path": "public/media/home/gallery-26fad1476462e961-f47f6e5f4df6-768.webp",
+      "size": 66232,
+      "mode": 33188,
+      "sha": "57e707631879107b2cba0f4ee258b1fba0b998f8"
+    },
+    {
+      "path": "public/media/home/gallery-26fad1476462e961-f47f6e5f4df6.webp",
+      "size": 108396,
+      "mode": 33188,
+      "sha": "89d6d2bbde548299f516710724bdff62694a26fa"
+    },
+    {
+      "path": "public/media/home/gallery-6734f28d6a76f1ed-f568c8b0eaf6-1280.webp",
+      "size": 192950,
+      "mode": 33188,
+      "sha": "36c8c122c9ee3118be371065d908e4822d10b73a"
+    },
+    {
+      "path": "public/media/home/gallery-6734f28d6a76f1ed-f568c8b0eaf6-1920.webp",
+      "size": 192950,
+      "mode": 33188,
+      "sha": "36c8c122c9ee3118be371065d908e4822d10b73a"
+    },
+    {
+      "path": "public/media/home/gallery-6734f28d6a76f1ed-f568c8b0eaf6-2560.webp",
+      "size": 192950,
+      "mode": 33188,
+      "sha": "36c8c122c9ee3118be371065d908e4822d10b73a"
+    },
+    {
+      "path": "public/media/home/gallery-6734f28d6a76f1ed-f568c8b0eaf6-640.webp",
+      "size": 81298,
+      "mode": 33188,
+      "sha": "0ec1bf68b6b9e8516b5803f217f33db7ef3c7fc5"
+    },
+    {
+      "path": "public/media/home/gallery-6734f28d6a76f1ed-f568c8b0eaf6-768.webp",
+      "size": 112186,
+      "mode": 33188,
+      "sha": "9f7023510f30a588fe5c02f1bb035828f1cb52c0"
+    },
+    {
+      "path": "public/media/home/gallery-6734f28d6a76f1ed-f568c8b0eaf6.webp",
+      "size": 192950,
+      "mode": 33188,
+      "sha": "36c8c122c9ee3118be371065d908e4822d10b73a"
+    },
+    {
+      "path": "public/media/identity/16mm-production-01006112ec.webp",
+      "size": 24700,
+      "mode": 33188,
+      "sha": "0e3c01b0a00cfba12721ecbcccb746a10ae5d9d0"
+    },
+    {
+      "path": "public/media/identity/antwell-suites-e78ca88f68.webp",
+      "size": 4018,
+      "mode": 33188,
+      "sha": "a720b517b824d0ed98156bfec7541e569be8e8b5"
+    },
+    {
+      "path": "public/media/identity/artside-mimarlik-f074dccff2.webp",
+      "size": 8710,
+      "mode": 33188,
+      "sha": "695d5fd0c2d6bb33dbdf2c6a63e9b8677b5d663d"
+    },
+    {
+      "path": "public/media/identity/casa-gaia-9f80b1380c.webp",
+      "size": 15834,
+      "mode": 33188,
+      "sha": "4a92f122a47e4c62a9001f4ef5daa45e33060ef9"
+    },
+    {
+      "path": "public/media/identity/emaar-a2d35dbe9d.webp",
+      "size": 23922,
+      "mode": 33188,
+      "sha": "27ce81003b59280bd0ccc753968b316ca5adb02d"
+    },
+    {
+      "path": "public/media/identity/fitoz-1782abe490.webp",
+      "size": 48820,
+      "mode": 33188,
+      "sha": "ef118279ea8ae6a605407a085bc49866e88f243b"
+    },
+    {
+      "path": "public/media/identity/hexalight-ba079a8e27.webp",
+      "size": 8756,
+      "mode": 33188,
+      "sha": "22f80a9cd323d76f772f2576e638810fb7d2d2a4"
+    },
+    {
+      "path": "public/media/identity/highlight-a3c0e0f776.webp",
+      "size": 4994,
+      "mode": 33188,
+      "sha": "149bc21078f11fe74d3b30bcebfd1c725b513a13"
+    },
+    {
+      "path": "public/media/identity/hyatt-house-10f56c74f9.webp",
+      "size": 5998,
+      "mode": 33188,
+      "sha": "46b58132c06c19628e138a874405f09651c72ccf"
+    },
+    {
+      "path": "public/media/identity/ida-trio-9a5d01d135.webp",
+      "size": 4230,
+      "mode": 33188,
+      "sha": "86d99d6f17a3889e00695794b518a325dc1ae179"
+    },
+    {
+      "path": "public/media/identity/kara-uzum-793ad1c9f4.webp",
+      "size": 18516,
+      "mode": 33188,
+      "sha": "c9742e1c1eee54f6a9c6137d5d8124bb6e28acd9"
+    },
+    {
+      "path": "public/media/identity/lizay-b031c4eff6.webp",
+      "size": 5626,
+      "mode": 33188,
+      "sha": "7119f93cf60fffbaf0cefc230c3cd7da0cf525ba"
+    },
+    {
+      "path": "public/media/identity/lizera-a9e5f83f3c.webp",
+      "size": 17092,
+      "mode": 33188,
+      "sha": "e8f46497346f6ace81f678ce46112171060df123"
+    },
+    {
+      "path": "public/media/identity/markaled-f5eb28dc52.webp",
+      "size": 15010,
+      "mode": 33188,
+      "sha": "b3e4933df6bc43f12dc13d7b604c59145348d785"
+    },
+    {
+      "path": "public/media/identity/mk-illumination-f3f4358771.webp",
+      "size": 8684,
+      "mode": 33188,
+      "sha": "1d56a4b3e107ae6ec775aeb909a72c6041271e4c"
+    },
+    {
+      "path": "public/media/identity/ms-sparkle-light-ed80fb750d.webp",
+      "size": 5296,
+      "mode": 33188,
+      "sha": "e7785851e66935e3a08eb875eae1368e9a08e0b6"
+    },
+    {
+      "path": "public/media/identity/myhome-architecture-3efd614c2d.webp",
+      "size": 5844,
+      "mode": 33188,
+      "sha": "f6e98408f81aaf281b12cf5c78178e52856dc5db"
+    },
+    {
+      "path": "public/media/identity/na-lightstyle-2b2f2c54a1.webp",
+      "size": 15530,
+      "mode": 33188,
+      "sha": "885dcf19db2efd5a6c342b79d6eadbae2938d0c5"
+    },
+    {
+      "path": "public/media/identity/nka-mimarlik-0f01a1750c.webp",
+      "size": 15864,
+      "mode": 33188,
+      "sha": "539d4a35625a334923606193787dfa609ed93477"
+    },
+    {
+      "path": "public/media/identity/olivera-fe20cd8fbf.webp",
+      "size": 43856,
+      "mode": 33188,
+      "sha": "12640c9de1332468605e43775da69e44a7f93389"
+    },
+    {
+      "path": "public/media/identity/ozan-arslan-847eefdb7b.webp",
+      "size": 50894,
+      "mode": 33188,
+      "sha": "a0a4ac72aadd6238acbb4724d15bda3a644be2f9"
+    },
+    {
+      "path": "public/media/identity/platform-office-a09554a6a4.webp",
+      "size": 6804,
+      "mode": 33188,
+      "sha": "29256c2cbf479b8aebe1d44f8823b193b366a061"
+    },
+    {
+      "path": "public/media/identity/prolux-cc46f8a4ce.webp",
+      "size": 25770,
+      "mode": 33188,
+      "sha": "cb63144791059ea9b6749c2331bae45a47622df0"
+    },
+    {
+      "path": "public/media/identity/ramada-616a9a4c6f.webp",
+      "size": 35116,
+      "mode": 33188,
+      "sha": "e193480c8bead4224a001e3d21b7f183ab4ebeb2"
+    },
+    {
+      "path": "public/media/identity/redi-led-2459f574b0.webp",
+      "size": 2416,
+      "mode": 33188,
+      "sha": "e381e0cc8abcddaa1bd6b45c5baf5b9e02fd7d53"
+    },
+    {
+      "path": "public/media/identity/schoner-4360557ca1.webp",
+      "size": 3912,
+      "mode": 33188,
+      "sha": "a10b611b78312cab5854fd021391f642f8f1d43d"
+    },
+    {
+      "path": "public/media/identity/storks-diamond-445e98348c.webp",
+      "size": 15886,
+      "mode": 33188,
+      "sha": "c8950677e8928a0d9146d9f62ea22788eb3d74a6"
+    },
+    {
+      "path": "public/media/identity/teras-otel-5492fc440c.webp",
+      "size": 22528,
+      "mode": 33188,
+      "sha": "1aa787e67497033bc33f55327ddf3a983464fdc9"
+    },
+    {
+      "path": "public/media/identity/urban-lumina-6ba054d05b.webp",
+      "size": 10754,
+      "mode": 33188,
+      "sha": "c195ac9ef9e3f86a4f5046437857cfd6f71f7b54"
+    },
+    {
+      "path": "public/media/identity/vackerlite-c46aeaea16.webp",
+      "size": 10532,
+      "mode": 33188,
+      "sha": "51be6cae0f6ae9cdf4f25389e88f222d3688d759"
+    },
+    {
+      "path": "README.md",
+      "size": 7680,
+      "mode": 33188,
+      "sha": "b2b6c52e7de49fb87e0c98875aee2dbe480cf344"
+    },
+    {
+      "path": "reports",
+      "size": 0,
+      "mode": 16832
+    },
+    {
+      "path": "run.sh",
+      "size": 757,
+      "mode": 33261,
+      "sha": "ec81793bcfaf98569fefc215b89250ae53ff7e67"
+    },
+    {
+      "path": "scripts/admin-password.ts",
+      "size": 2087,
+      "mode": 33188,
+      "sha": "dfc85cd374af5abeed927a136719f3878758d77f"
+    },
+    {
+      "path": "scripts/admin-preview-fixture.ts",
+      "size": 479,
+      "mode": 33188,
+      "sha": "813f462787cc70345458eecd1f61a39c7a089d3a"
+    },
+    {
+      "path": "scripts/audit-seo.mjs",
+      "size": 4091,
+      "mode": 33188,
+      "sha": "fa6fef5520285b874161e78372adbe2e6a411131"
+    },
+    {
+      "path": "scripts/create-deploy-archive.mjs",
+      "size": 1592,
+      "mode": 33188,
+      "sha": "1e6ad0f7a65126424af75006f372aee2d4cc666e"
+    },
+    {
+      "path": "scripts/dev.mjs",
+      "size": 1565,
+      "mode": 33188,
+      "sha": "222170b667dd52d506e9bb61e1a342ef95420303"
+    },
+    {
+      "path": "scripts/encode-media.mjs",
+      "size": 4256,
+      "mode": 33188,
+      "sha": "350d4b8fdb407b94582f98f997e2937547276031"
+    },
+    {
+      "path": "scripts/fetch-deploy-media.mjs",
+      "size": 3334,
+      "mode": 33188,
+      "sha": "cfbe7059e7d7e18df4f41821a64aa487ec6abe50"
+    },
+    {
+      "path": "scripts/gallery-utils.mjs",
+      "size": 4933,
+      "mode": 33188,
+      "sha": "5b6a13b2b5bfc25d84e5c1174ac49acf11fa3f94"
+    },
+    {
+      "path": "scripts/gallery.test.mjs",
+      "size": 4883,
+      "mode": 33188,
+      "sha": "cd947a6aefd7f1265a90a65defbddc433397ab26"
+    },
+    {
+      "path": "scripts/import-gallery.mjs",
+      "size": 1082,
+      "mode": 33188,
+      "sha": "f45c99cdd5faf78757b2bac1d8f171c296043963"
+    },
+    {
+      "path": "scripts/migrate-cloud-database.mjs",
+      "size": 2568,
+      "mode": 33188,
+      "sha": "185f1fcebb29685b7f81786f44874f8b20a36ba8"
+    },
+    {
+      "path": "scripts/migrate-local-portfolio.ts",
+      "size": 2643,
+      "mode": 33188,
+      "sha": "0be74f1d0eaf6d493d1f6dda4321f5fa8c0172e3"
+    },
+    {
+      "path": "scripts/optimize-gallery.mjs",
+      "size": 7982,
+      "mode": 33188,
+      "sha": "77ce640d9c813ef33bb4e81551993c3a09449e7f"
+    },
+    {
+      "path": "scripts/optimize-hero.mjs",
+      "size": 3102,
+      "mode": 33188,
+      "sha": "a44bf52bdba0561ccb95985b4b687fad37681ad5"
+    },
+    {
+      "path": "scripts/optimize-images.mjs",
+      "size": 2746,
+      "mode": 33188,
+      "sha": "7b59b381887fb904d4f7ea2f95b7c3d61c5f4088"
+    },
+    {
+      "path": "scripts/optimize-images.test.mjs",
+      "size": 2867,
+      "mode": 33188,
+      "sha": "989597217ef6ac244f06820b4ac14a75ae6f0e42"
+    },
+    {
+      "path": "scripts/prepare-media.mjs",
+      "size": 1715,
+      "mode": 33188,
+      "sha": "db516dd2986c4d0dfe6fb1d18347df80d3721a96"
+    },
+    {
+      "path": "scripts/prepare-portfolio.mjs",
+      "size": 4758,
+      "mode": 33188,
+      "sha": "4a768aa25706a56185455e59ebbd215fe81fa31e"
+    },
+    {
+      "path": "scripts/restore-deploy-archive.mjs",
+      "size": 3423,
+      "mode": 33188,
+      "sha": "25301b9bb38b4adaf79beeaf7a2673b0c2651634"
+    },
+    {
+      "path": "scripts/restore-transfer.mjs",
+      "size": 2832,
+      "mode": 33188,
+      "sha": "129af162f8672b40829957c1d5896662a58c8b80"
+    },
+    {
+      "path": "scripts/verify-gallery.mjs",
+      "size": 2395,
+      "mode": 33188,
+      "sha": "c04ea6e3f59b59811fc42351f7c87537b08c1c71"
+    },
+    {
+      "path": "specs/admin.md",
+      "size": 4942,
+      "mode": 33188,
+      "sha": "cf6179c2782ef94412cd73b4ec498b5175f87531"
+    },
+    {
+      "path": "src/app/(site)/blog/page.tsx",
+      "size": 511,
+      "mode": 33188,
+      "sha": "da83390ea9db757e11ef3232c689ae5a2a7ef676"
+    },
+    {
+      "path": "src/app/(site)/contact/Contact.module.css",
+      "size": 2701,
+      "mode": 33188,
+      "sha": "914c14a1432958e26555f7cd5d704de32bdc1937"
+    },
+    {
+      "path": "src/app/(site)/contact/page.tsx",
+      "size": 2262,
+      "mode": 33188,
+      "sha": "2acb681072d48724ef38ad7296331a3416d384aa"
+    },
+    {
+      "path": "src/app/(site)/error.tsx",
+      "size": 51,
+      "mode": 33188,
+      "sha": "01bddbac24dca953f9591c8452903f2628137276"
+    },
+    {
+      "path": "src/app/(site)/layout.tsx",
+      "size": 1038,
+      "mode": 33188,
+      "sha": "938daa6fcf6e0151552adfab2326d861e57c9db8"
+    },
+    {
+      "path": "src/app/(site)/loading.tsx",
+      "size": 475,
+      "mode": 33188,
+      "sha": "aa1e9357b7871dcb8182c498bad941539d065007"
+    },
+    {
+      "path": "src/app/(site)/page.tsx",
+      "size": 1934,
+      "mode": 33188,
+      "sha": "455f08cf03f20ca39cb95ad3620c49ee43680e62"
+    },
+    {
+      "path": "src/app/(site)/portfolio/[category]/page.tsx",
+      "size": 2562,
+      "mode": 33188,
+      "sha": "ffa12ebc40f9e16c9084d992bad7d34b5012b3a4"
+    },
+    {
+      "path": "src/app/(site)/projects/[slug]/page.tsx",
+      "size": 2777,
+      "mode": 33188,
+      "sha": "af362d9fff7e939c68c72e1e308594c39b77fb83"
+    },
+    {
+      "path": "src/app/(site)/projects/[slug]/Project.module.css",
+      "size": 2248,
+      "mode": 33188,
+      "sha": "8da0db61b11d68c4f2fc4389c76acf7d3982811e"
+    },
+    {
+      "path": "src/app/admin/[[...view]]/page.tsx",
+      "size": 2659,
+      "mode": 33188,
+      "sha": "dd82c8560a210ee22f2149c202969151712a94e3"
+    },
+    {
+      "path": "src/app/admin/admin.css",
+      "size": 16686,
+      "mode": 33188,
+      "sha": "b47f4cb313423c39023437938342ce34c97637e5"
+    },
+    {
+      "path": "src/app/admin/error.tsx",
+      "size": 283,
+      "mode": 33188,
+      "sha": "5fbec119f73adc14428ba24b81ed53c84675cbe1"
+    },
+    {
+      "path": "src/app/admin/layout.tsx",
+      "size": 363,
+      "mode": 33188,
+      "sha": "79507d8b5080ac3c556ac8c66218792b36e320a7"
+    },
+    {
+      "path": "src/app/api/admin/[...path]/route.ts",
+      "size": 8148,
+      "mode": 33188,
+      "sha": "e64272f84210f4c35a5d14785f413bb9a5c687b1"
+    },
+    {
+      "path": "src/app/error.tsx",
+      "size": 284,
+      "mode": 33188,
+      "sha": "47aa49669674e8045a5c335b968fa3c9ec338718"
+    },
+    {
+      "path": "src/app/global-not-found.tsx",
+      "size": 537,
+      "mode": 33188,
+      "sha": "4ad72810a99da270e93a6c50b5a3dc0e24141c1d"
+    },
+    {
+      "path": "src/app/globals.css",
+      "size": 1856,
+      "mode": 33188,
+      "sha": "3ddecd8c1281e9e402196bf8eee9b6bd72cf35b8"
+    },
+    {
+      "path": "src/app/layout.tsx",
+      "size": 700,
+      "mode": 33188,
+      "sha": "d1ffc826cab00e67fb3af818c1a1c833766d5a30"
+    },
+    {
+      "path": "src/app/media/uploads/[...path]/route.ts",
+      "size": 2742,
+      "mode": 33188,
+      "sha": "d93824e7551ee55721db6a9ff269dfe5c2f4bb3d"
+    },
+    {
+      "path": "src/app/not-found.tsx",
+      "size": 303,
+      "mode": 33188,
+      "sha": "69aeafee09e6dc27438f18151b295c00c67576f0"
+    },
+    {
+      "path": "src/app/robots.ts",
+      "size": 279,
+      "mode": 33188,
+      "sha": "19f5813833284cee70839cc639d188e5a7e5bcf9"
+    },
+    {
+      "path": "src/app/sitemap.ts",
+      "size": 609,
+      "mode": 33188,
+      "sha": "96738ed365e8aed8fb65e55524908f881ef5c739"
+    },
+    {
+      "path": "src/components/admin/Editor.tsx",
+      "size": 11831,
+      "mode": 33188,
+      "sha": "2ec1fc56ec2649e8c0281838093d5e48e1b872a8"
+    },
+    {
+      "path": "src/components/admin/Login.tsx",
+      "size": 2512,
+      "mode": 33188,
+      "sha": "2cd240214c5a7f7dbc0f581a70f7195d2d06b4d1"
+    },
+    {
+      "path": "src/components/admin/Projects.tsx",
+      "size": 5599,
+      "mode": 33188,
+      "sha": "2df53994352534c43e606905fc18c500a3ccc7be"
+    },
+    {
+      "path": "src/components/admin/Settings.tsx",
+      "size": 4463,
+      "mode": 33188,
+      "sha": "748358da368752d9a8255a7788503672942aec83"
+    },
+    {
+      "path": "src/components/admin/Shell.tsx",
+      "size": 2622,
+      "mode": 33188,
+      "sha": "e8500b3699267b1529680442ba497cfac2b31d0f"
+    },
+    {
+      "path": "src/components/admin/ui.tsx",
+      "size": 2353,
+      "mode": 33188,
+      "sha": "9103f0d6edc2a92d46fc88449e71c0acb7822d65"
+    },
+    {
+      "path": "src/components/Arrow.tsx",
+      "size": 383,
+      "mode": 33188,
+      "sha": "0674938e8c6e1e93f074887c83cdb998af0ff4ad"
+    },
+    {
+      "path": "src/components/BackgroundVideo.tsx",
+      "size": 1447,
+      "mode": 33188,
+      "sha": "c88dc32dcdb1a63bdc939ef659eb46a7f33dcf3f"
+    },
+    {
+      "path": "src/components/FloatingContact.module.css",
+      "size": 1243,
+      "mode": 33188,
+      "sha": "58a63ac47e51bd781f5f0eb9ad023d7b264759b0"
+    },
+    {
+      "path": "src/components/FloatingContact.tsx",
+      "size": 2397,
+      "mode": 33188,
+      "sha": "6d8233262cf920f27f3cd0a22e9775794580bc46"
+    },
+    {
+      "path": "src/components/Footer.module.css",
+      "size": 3828,
+      "mode": 33188,
+      "sha": "719dfad702f393ff5dc2809a6bd9520fe53a5ba5"
+    },
+    {
+      "path": "src/components/Footer.tsx",
+      "size": 2251,
+      "mode": 33188,
+      "sha": "ab4986619fe9dc094d2e48b4761731b223cd841b"
+    },
+    {
+      "path": "src/components/Gallery.module.css",
+      "size": 1412,
+      "mode": 33188,
+      "sha": "4dd78b3b1f47d234b7763d242278876288598ddf"
+    },
+    {
+      "path": "src/components/Gallery.tsx",
+      "size": 3750,
+      "mode": 33188,
+      "sha": "9dfd6582dd932398920dfa5cd688c1cea281f457"
+    },
+    {
+      "path": "src/components/Header.tsx",
+      "size": 2294,
+      "mode": 33188,
+      "sha": "77078fcb32208675defb502dda5d033e85f7f5d5"
+    },
+    {
+      "path": "src/components/Hero.tsx",
+      "size": 3305,
+      "mode": 33188,
+      "sha": "c1162afca3b0109dd0b50a9613b7686b8f8b84b9"
+    },
+    {
+      "path": "src/components/Photo.tsx",
+      "size": 802,
+      "mode": 33188,
+      "sha": "3dd2873ad1c86ab078c48a0f0b8c8ca977a3aa9e"
+    },
+    {
+      "path": "src/components/PhotoGrid.tsx",
+      "size": 3633,
+      "mode": 33188,
+      "sha": "ac7036dd9d79e08e310cf491d7f2363825ebdbf4"
+    },
+    {
+      "path": "src/components/Portfolio.module.css",
+      "size": 17341,
+      "mode": 33188,
+      "sha": "a1700486d27bbee21934c63c9534676d798d110e"
+    },
+    {
+      "path": "src/components/PortfolioCard.tsx",
+      "size": 939,
+      "mode": 33188,
+      "sha": "25df0126eec4d3d09818abdc496b01724b78f171"
+    },
+    {
+      "path": "src/components/PortfolioShell.tsx",
+      "size": 2528,
+      "mode": 33188,
+      "sha": "2590ef3884a889f663f58d90d5b7919dbc057c7d"
+    },
+    {
+      "path": "src/components/PortfolioSlideshow.tsx",
+      "size": 6996,
+      "mode": 33188,
+      "sha": "5e69ba669fb0f9736d344419a807a9adbcf5b46e"
+    },
+    {
+      "path": "src/components/ProjectCard.tsx",
+      "size": 1135,
+      "mode": 33188,
+      "sha": "6572c6d9050dcdcd7e18c2bec0c644271167f382"
+    },
+    {
+      "path": "src/components/ProjectInquiry.tsx",
+      "size": 1406,
+      "mode": 33188,
+      "sha": "d2e83fb120df9e183bd935725081902276eca490"
+    },
+    {
+      "path": "src/components/ReferenceMarquee.tsx",
+      "size": 1279,
+      "mode": 33188,
+      "sha": "cbc706718bd4becee8b00eca2b18af7759206212"
+    },
+    {
+      "path": "src/components/SelectedProjects.module.css",
+      "size": 5023,
+      "mode": 33188,
+      "sha": "11127ebe5265ee96c9d701fec7f1d957057480e1"
+    },
+    {
+      "path": "src/components/SelectedProjects.tsx",
+      "size": 5229,
+      "mode": 33188,
+      "sha": "4cf58caf8e40d6bc9babcb4c4b8ac48625430522"
+    },
+    {
+      "path": "src/components/SidebarContacts.tsx",
+      "size": 3121,
+      "mode": 33188,
+      "sha": "22c801ea31ccefe2280ec65ac188eca1724c98b8"
+    },
+    {
+      "path": "src/components/Site.module.css",
+      "size": 13744,
+      "mode": 33188,
+      "sha": "0437da0be16b1dcab52d35a2d0d34962bd1251ad"
+    },
+    {
+      "path": "src/components/VideoPlayer.tsx",
+      "size": 1435,
+      "mode": 33188,
+      "sha": "104164be0f4477d84ef8386601ac3e2e83bf0f5a"
+    },
+    {
+      "path": "src/content/gallery.json",
+      "size": 341555,
+      "mode": 33188,
+      "sha": "5f25de38152cba713daa7c209600a4d3945c123b"
+    },
+    {
+      "path": "src/content/hero-images.json",
+      "size": 1626,
+      "mode": 33188,
+      "sha": "ad592a91ebca97c8f8e255f5c0ec085579572c12"
+    },
+    {
+      "path": "src/content/home-slides.json",
+      "size": 1101,
+      "mode": 33188,
+      "sha": "dfab339f8a15a4d60a0963d1488d9874085fedc1"
+    },
+    {
+      "path": "src/content/identity.json",
+      "size": 4183,
+      "mode": 33188,
+      "sha": "cdce48964539191c790372252a19e5967f142859"
+    },
+    {
+      "path": "src/content/images.json",
+      "size": 4825,
+      "mode": 33188,
+      "sha": "c574bb70bf714ccbd71018a409bb1c3856a76f1c"
+    },
+    {
+      "path": "src/content/projects.ts",
+      "size": 1864,
+      "mode": 33188,
+      "sha": "3b8515bdf3d8ecbb79fa85d5b2d73de9ac370709"
+    },
+    {
+      "path": "src/content/site.ts",
+      "size": 6072,
+      "mode": 33188,
+      "sha": "7cb0c7f7ab5952586be829c832295f35702b0fdd"
+    },
+    {
+      "path": "src/lib/cms/auth.ts",
+      "size": 5491,
+      "mode": 33188,
+      "sha": "1cc31e48df9966ff401576b16f049ad3fda6f4b4"
+    },
+    {
+      "path": "src/lib/cms/cloud-media.ts",
+      "size": 8443,
+      "mode": 33188,
+      "sha": "d9e50bec5b73a5ac3e067bf3d9e19832a5c07608"
+    },
+    {
+      "path": "src/lib/cms/public.ts",
+      "size": 1225,
+      "mode": 33188,
+      "sha": "fea0e21c6606a543ef4e66c83e93f5e38c82dd9b"
+    },
+    {
+      "path": "src/lib/cms/sql.ts",
+      "size": 3135,
+      "mode": 33188,
+      "sha": "7027c8b2cf71b9704f040b59f7178e8a616f556a"
+    },
+    {
+      "path": "src/lib/cms/store.ts",
+      "size": 18724,
+      "mode": 33188,
+      "sha": "0024772265172235d16ebc82357b3a0b151cbb26"
+    },
+    {
+      "path": "src/lib/cms/types.ts",
+      "size": 2350,
+      "mode": 33188,
+      "sha": "13ef7a7c2fe0f9b362a38282e5f84902e089ef95"
+    },
+    {
+      "path": "src/lib/cms/upload.ts",
+      "size": 5876,
+      "mode": 33188,
+      "sha": "95e2f7c14575dc869f866f1858d39422ee611810"
+    },
+    {
+      "path": "src/lib/contact.ts",
+      "size": 489,
+      "mode": 33188,
+      "sha": "bf2ec989349fc46858a9c569dc45204eadc15894"
+    },
+    {
+      "path": "src/lib/font.ts",
+      "size": 231,
+      "mode": 33188,
+      "sha": "bafddf3ad266132992688739fe9352dda4ba8408"
+    },
+    {
+      "path": "src/lib/image-loader.ts",
+      "size": 482,
+      "mode": 33188,
+      "sha": "bf7aa438da51a8de142969ddbecabaf9afcf8286"
+    },
+    {
+      "path": "src/lib/images.ts",
+      "size": 309,
+      "mode": 33188,
+      "sha": "c2d52245923e1875705e8ea2c6e5d40110f99ce1"
+    },
+    {
+      "path": "src/lib/metadata.ts",
+      "size": 671,
+      "mode": 33188,
+      "sha": "1e34ec4f6491cd6889f0abc258325c7953b2ec7b"
+    },
+    {
+      "path": "src/proxy.ts",
+      "size": 1283,
+      "mode": 33188,
+      "sha": "e8a3e032b88209edff1f60c0c9d94f896559e41e"
+    },
+    {
+      "path": "tests/cms-http-extra.mjs",
+      "size": 3772,
+      "mode": 33188,
+      "sha": "e77b8d912664835aee04f438222934e58c057233"
+    },
+    {
+      "path": "tests/cms-http.mjs",
+      "size": 5238,
+      "mode": 33188,
+      "sha": "b1fdac98cf5ae7834414da4613a2f76a88486de6"
+    },
+    {
+      "path": "tests/cms.test.ts",
+      "size": 10514,
+      "mode": 33188,
+      "sha": "5c72b87916a02ddf5cf8e361d04f281373b6d797"
+    },
+    {
+      "path": "tsconfig.json",
+      "size": 594,
+      "mode": 33188,
+      "sha": "829b3d59982289e654dd8d563c43c2a765a9be0d"
+    },
+    {
+      "path": "vercel.json",
+      "size": 80,
+      "mode": 33188,
+      "sha": "0aae64c2cda3906050d5295e17ba25e9533731ae"
+    },
+    {
+      "path": "VERIFICATION.md",
+      "size": 14713,
+      "mode": 33188,
+      "sha": "ddee348fd774c2a0336493bd74415e4cbbf77b65"
+    }
+  ]
+}
