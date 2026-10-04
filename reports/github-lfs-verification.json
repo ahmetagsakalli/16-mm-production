@@ -1,0 +1,37 @@
+{
+  "uniqueObjects": 2983,
+  "allAvailable": true,
+  "totalBytes": 3412566135,
+  "downloadedSamples": [
+    {
+      "path": "assets/gallery/originals/1- MİMARİ/1- Emaar 2025/Emaar Square Mall-112.jpg",
+      "sha256": "9ca11de7cf0a756b581713ebfcedaccc3f2cc8ee84a989d64d607f470bcd5c20",
+      "bytes": 571389
+    },
+    {
+      "path": "assets/client-2026-10-02/branding/16mm logo yatay.png",
+      "sha256": "a1719d16f95a1cc3dd92f96290a0fe05930b8fb7345fbaad04b9186ef8bb7de5",
+      "bytes": 9612
+    },
+    {
+      "path": "public/media/gallery/1-mimari-1-emaar-2025-674a2b/emaar-square-mall-112-e2c67b7c-bd9249375169-1280.webp",
+      "sha256": "8685344763f6fbb4ef5d5b11b7de541bcf850a82e03bc030bf06edf5d219583b",
+      "bytes": 145276
+    },
+    {
+      "path": "public/media/home/gallery-26fad1476462e961-f47f6e5f4df6-1280.webp",
+      "sha256": "3f37b40009bdbacedc8833bca1d944796e18804ee2132af5ccaa51dac93b3d39",
+      "bytes": 108396
+    },
+    {
+      "path": ".transfer/live-cms.sqlite",
+      "sha256": "2a07a3902b543abe2f9712c78e0ef74c40a822882e72d03882d92d978373ab83",
+      "bytes": 1048576
+    },
+    {
+      "path": ".transfer/media-parts/c55086023f627a46c737afe76a3eb59e40cf28f31684482d545ee6676889d732/0000.part",
+      "sha256": "4a071e1ed3c5aa45a029fad86511b0423e43542d8a4ea1547bc50db28dfec619",
+      "bytes": 33554432
+    }
+  ]
+}

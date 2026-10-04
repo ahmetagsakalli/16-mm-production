@@ -23,4 +23,4 @@ Güncel kaynak: `ozan-portfolio-local`. Canlı içerik `/api/admin/export` üzer
 
 Testler ayrı `/tmp/16mm-vps-transfer-test-2026-10-04` veri dizininde çalıştırıldı; dağıtımdaki başlangıç SQLite kopyası değiştirilmedi. Uygulama kontrolleri macOS üzerinde Node.js 24 ile yapıldı. Gerçek Linux VPS kurulumu henüz yapılmadı; Linux servis ve reverse proxy örnekleri KURULUM.md'dedir.
 
-GitHub uzak aktarımının son doğrulaması, bu belgenin sonraki kaydında tamamlanır.
+GitHub LFS doğrulaması tamamlandı: 2.983 benzersiz nesnenin tamamı indirilebilir (3.412.566.135 bayt), eksik nesne yok. Özgün fotoğraf, logo, galeri WebP, ana sayfa WebP, canlı SQLite ve video parçası GitHub üzerinden indirilip SHA-256 ile doğrulandı. Ayrıntılar `github-lfs-verification.json` dosyasındadır. `git lfs fsck` geçti; normal Git tarafında 100 MB üstü blob bulunmuyor.
