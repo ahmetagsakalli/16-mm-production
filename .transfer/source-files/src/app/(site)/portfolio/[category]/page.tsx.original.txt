@@ -29,6 +29,6 @@ export default async function Collection({ params }: Props) {
     {collection.length ? isGalleryCategory(category) ? <>
       <PhotoGrid photos={photos} title={categories[category].title.tr} />
       {videos.length > 0 && <div className={s.galleryVideos}>{videos.map(video => <VideoPlayer key={video.src} src={video.src} poster={video.poster} locale="tr" title={video.title} description={categories[category].description.tr} />)}</div>}
-    </> : <div className={s.projectGrid}>{collection.map((project, index) => <PortfolioCard key={project.slug} project={project} priority={index === 0} sizes="(max-width: 560px) calc(100vw - 36px), (max-width: 900px) calc((100vw - 66px) / 2), (max-width: 1200px) calc((100vw - 320px) / 2), (max-width: 1599px) calc((100vw - 436px) / 4), calc((100vw - 490px) / 4)" />)}</div> : <div className={s.empty}><p>Yeni çalışmalar yakında.</p><Link href="/contact">İletişime geçin</Link></div>}
+    </> : <div className={s.projectGrid}>{collection.map((project, index) => <PortfolioCard key={project.slug} project={project} priority={index === 0} />)}</div> : <div className={s.empty}><p>Yeni çalışmalar yakında.</p><Link href="/contact">İletişime geçin</Link></div>}
   </main>;
 }

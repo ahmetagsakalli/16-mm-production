@@ -55,8 +55,7 @@
 .lightboxClose{position:absolute;right:18px;top:8px;background:none;color:white;font-size:34px;line-height:1;padding:8px;z-index:3}
 .lightbox p{position:absolute;bottom:10px;left:50%;transform:translateX(-50%);font-size:12px;color:#bbb}
 .pageHeading{font-size:21px;font-weight:400;line-height:1.4;letter-spacing:.025em;margin:0 0 30px}
-.projectGrid{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
-.projectGrid .projectPhoto{aspect-ratio:1}
+.projectGrid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px}
 .projectCard{position:relative;display:block;min-width:0;overflow:hidden;background:#f4f4f1;container-type:inline-size}
 .projectPhoto{aspect-ratio:3/2;overflow:hidden;background:#f4f4f1}
 .projectPhoto img{height:100%;object-fit:cover}
@@ -79,15 +78,15 @@
 .contactContent address a{overflow-wrap:anywhere}.contactContent address a:hover{color:#9a8455}
 .address{max-width:320px;line-height:1.9;font-size:13px;color:#808080;margin-top:10px}
 .biography{white-space:pre-line;color:#666;font-size:14px;line-height:1.9;margin-bottom:28px}
-.references{--reference-gap:24px;--reference-speed:50s;max-width:1120px;margin:72px auto 24px;border-top:1px solid #eee;padding-top:28px}
+.references{--reference-gap:32px;--reference-speed:80s;max-width:1120px;margin:72px auto 24px;border-top:1px solid #eee;padding-top:28px}
 .referencesHeading{text-align:center;margin-bottom:24px}
 .references h2{font-size:18px;font-weight:400;margin:0;line-height:1.5}
-.referenceRows{display:grid;gap:12px}
+.referenceRows{display:grid;gap:24px}
 .referenceWindow{width:100%;overflow:hidden;mask-image:linear-gradient(to right,transparent,#000 4%,#000 96%,transparent)}
 .referenceTrack{display:flex;width:max-content;animation:referenceFlow var(--reference-speed) linear infinite}
 .referenceWindow:nth-child(2) .referenceTrack{animation-direction:reverse}
 .referenceGroup{display:flex;align-items:center;gap:var(--reference-gap);padding-right:var(--reference-gap);flex-shrink:0}
-.referenceLogo{flex:0 0 132px;width:132px;height:64px;display:flex;align-items:center;justify-content:center;padding:10px}
+.referenceLogo{flex:0 0 172px;width:172px;height:90px;display:flex;align-items:center;justify-content:center;padding:10px}
 .referenceLogo img{width:auto;height:auto;max-width:100%;max-height:100%;object-fit:contain}
 .referenceWindow:hover .referenceTrack,.referenceWindow:focus-within .referenceTrack{animation-play-state:paused}
 .referenceWindow:focus-visible{outline:2px solid #9a8455;outline-offset:4px}
@@ -110,7 +109,7 @@
 }
 @media(max-width:560px){
   .shell{--outer:18px}.sidebar{padding:20px 22px}.logo{width:123px}.content{padding-top:20px}.pageHeading{font-size:19px;margin-bottom:22px}.homeSlideshow .stage{height:calc(100svh - 205px);min-height:340px}.slideArrow{width:34px;height:44px;padding:8px}.slidePrevious{left:0}.slideNext{right:0}.slideMeta{grid-template-columns:66px 1fr 40px;font-size:10px}.slideDots button{padding:8px}
-  .projectGrid{grid-template-columns:1fr;gap:24px}.projectPhoto{aspect-ratio:3/2}.projectIntro{align-items:flex-start;gap:15px}.projectIntro h1{font-size:18px;max-width:75%}.backLink{font-size:10px;padding-top:4px}.stage{height:57svh;min-height:320px}.projectNav{font-size:11px;line-height:1.7}.lightbox{padding:48px 10px}.contactGrid{grid-template-columns:1fr;gap:28px}.portrait{max-height:470px;width:100%;object-fit:cover}.contactContent{padding:0 4px}.contactContent h1{margin-bottom:20px}.contactContent address{gap:15px}.references{--reference-gap:16px;--reference-speed:42s;margin-top:44px;padding-top:20px}.referencesHeading{gap:12px;margin-bottom:16px}.references h2{font-size:16px}.referenceRows{gap:10px}.referenceLogo{flex-basis:96px;width:96px;height:52px;padding:6px}
+  .projectGrid{grid-template-columns:1fr;gap:24px}.projectPhoto{aspect-ratio:3/2}.projectIntro{align-items:flex-start;gap:15px}.projectIntro h1{font-size:18px;max-width:75%}.backLink{font-size:10px;padding-top:4px}.stage{height:57svh;min-height:320px}.projectNav{font-size:11px;line-height:1.7}.lightbox{padding:48px 10px}.contactGrid{grid-template-columns:1fr;gap:28px}.portrait{max-height:470px;width:100%;object-fit:cover}.contactContent{padding:0 4px}.contactContent h1{margin-bottom:20px}.contactContent address{gap:15px}.references{--reference-gap:20px;--reference-speed:64s;margin-top:44px;padding-top:20px}.referencesHeading{gap:12px;margin-bottom:16px}.references h2{font-size:16px}.referenceRows{gap:16px}.referenceLogo{flex-basis:124px;width:124px;height:72px;padding:8px}
 }
 @media(min-width:901px) and (min-height:761px) and (max-height:900px){
   .sidebar{padding:32px 24px 28px}.logo{width:160px}.navigation{margin:28px 0 18px}.navigation a{padding:5px 0;font-size:13px;line-height:1.3}.sidebarFooter{font-size:10px}.socialLinks{margin-bottom:12px}

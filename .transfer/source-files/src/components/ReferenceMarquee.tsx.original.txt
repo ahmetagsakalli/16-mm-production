@@ -4,8 +4,7 @@ import s from './Portfolio.module.css';
 type Reference = { name: string; src: string; width: number; height: number };
 
 export function ReferenceMarquee({ references }: { references: Reference[] }) {
-  const offset = Math.ceil(references.length / 2);
-  const rows = [references, [...references.slice(offset), ...references.slice(0, offset)]];
+  const rows = [references.filter((_, index) => index % 2 === 0), references.filter((_, index) => index % 2 === 1)];
 
   return <section className={s.references} aria-labelledby="references-title">
     <div className={s.referencesHeading}>
