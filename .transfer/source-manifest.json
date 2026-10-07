@@ -30285,7 +30285,7 @@
     },
     {
       "path": "src/app/(site)/page.tsx",
-      "storedAt": "src/app/(site)/page.tsx",
+      "storedAt": ".transfer/source-files/src/app/(site)/page.tsx.original.txt",
       "bytes": 1532,
       "sha256": "d027bd0d51e5fdee849cf32093e286d99bfc2ba456da4c306688c6fd85ca3c3a"
     },
