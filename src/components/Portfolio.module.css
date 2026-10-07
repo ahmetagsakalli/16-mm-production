@@ -29,6 +29,17 @@
 .slide{position:absolute;inset:0;opacity:0;pointer-events:none}
 .slideActive{opacity:1;animation:reveal .65s ease both;pointer-events:auto}
 .slide img{user-select:none;-webkit-user-drag:none;object-fit:contain}
+.captionedSlideshow .stage{container-type:size}
+.captionedSlideshow .slide{display:flex;align-items:center;justify-content:center}
+.captionFrame{position:relative;width:min(100cqw,calc(100cqh * var(--photo-ratio)));aspect-ratio:var(--photo-ratio);container-type:inline-size;overflow:hidden}
+.captionFrame::after{content:'';position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,transparent 30%,#0002 47%,#000b 100%)}
+.slideCaption{position:absolute;z-index:1;inset:auto 0 0;padding:clamp(24px,5cqi,64px);color:#fff;pointer-events:none;text-shadow:0 1px 12px #0003}
+.captionProject{margin:0 0 12px;font-size:clamp(11px,1.4cqi,14px);font-weight:400;letter-spacing:.05em;line-height:1.5}
+.slideCaption h2{max-width:20ch;margin:0 0 14px;font-size:clamp(26px,5.1cqi,60px);font-weight:300;letter-spacing:-.04em;line-height:1.12;text-wrap:balance}
+.slideCaption h2 a{pointer-events:auto;color:inherit;text-decoration:none}
+.slideCaption h2 a:focus-visible{outline:2px solid #fff;outline-offset:6px}
+.captionDescription{max-width:48ch;margin:0;font-size:clamp(13px,1.65cqi,17px);font-weight:300;line-height:1.7;text-wrap:pretty}
+@media(max-width:900px){.slideCaption{padding:clamp(16px,5cqi,36px)}.captionProject{margin-bottom:7px;font-size:10px}.slideCaption h2{font-size:clamp(19px,6cqi,36px);margin-bottom:8px}.captionDescription{font-size:clamp(11px,3.1cqi,14px);line-height:1.55;max-width:44ch}.captionFrame::after{background:linear-gradient(180deg,transparent 10%,#0002 35%,#000b 100%)}.captionedSlideshow .slideArrow{top:12px;bottom:auto;transform:none;left:auto}.captionedSlideshow .slidePrevious{right:54px}.captionedSlideshow .slideNext{right:12px}}
 @keyframes reveal{from{opacity:.15}to{opacity:1}}
 .slideArrow{position:absolute;z-index:2;top:50%;transform:translateY(-50%);width:42px;height:52px;padding:12px;background:#fffdf9dc;display:grid;place-items:center;color:#555;transition:background .2s}
 .slideArrow:hover{background:#fff}

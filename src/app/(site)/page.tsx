@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import { getPublicHomepage, getPublicProjects, getPublicSettings } from '@/lib/cms/public';
 import { pageMetadata } from '@/lib/metadata';
-import { PortfolioSlideshow } from '@/components/PortfolioSlideshow';
+import { PortfolioSlideshow, type SlideCaption } from '@/components/PortfolioSlideshow';
 import { PortfolioCard } from '@/components/PortfolioCard';
-import { HomeServices } from '@/components/HomeServices';
+import { homeIntroductions } from '@/content/home-introductions';
+import { canonicalCategory } from '@/content/site';
 import s from '@/components/Portfolio.module.css';
 
 export async function generateMetadata() {
@@ -13,10 +14,20 @@ export default async function Home() {
   const [projects, home] = await Promise.all([getPublicProjects(), getPublicHomepage()]);
   const featuredProjects = home.slugs.flatMap(slug => { const project = projects.find(p => p.slug === slug); return project ? [project] : []; });
   const photos = home.photos;
+  const captions: Record<string, SlideCaption> = {};
+  for (const photo of photos) {
+    const project = projects.find(project => project.photos.some(image => image.key === photo.key));
+    const introduction = project && homeIntroductions[canonicalCategory(project.category)];
+    captions[photo.key] = {
+      title: introduction?.title ?? 'Fotoğraf ve Film',
+      description: introduction?.description ?? 'Mekânların, tasarımların ve anların hikâyesini fotoğrafa taşıyoruz.',
+      project: project?.title.tr,
+      href: project ? `/portfolio/${canonicalCategory(project.category)}` : '/contact',
+    };
+  }
   return <main id="main" className={s.home}>
     <h1 className="visually-hidden">16mm Production — Mimari fotoğrafçılık ve film</h1>
-    <PortfolioSlideshow photos={photos} title="Seçilmiş fotoğraflar" autoplay />
-    <HomeServices projects={projects} />
+    <PortfolioSlideshow photos={photos} captions={captions} title="Seçilmiş fotoğraflar" autoplay />
     {featuredProjects.length > 0 && <section className={s.homeProjects} aria-labelledby="home-projects-title">
       <h2 id="home-projects-title">Seçilmiş projeler</h2>
       <div className={s.homeGrid}>{featuredProjects.map(project => <PortfolioCard key={project.slug} project={project} headingLevel={3} />)}</div>
