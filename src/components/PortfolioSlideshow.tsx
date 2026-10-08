@@ -27,9 +27,9 @@ export function PortfolioSlideshow({ photos, title, captions, autoplay = false, 
     let visible = true;
     const observer = new IntersectionObserver(([entry]) => { visible = entry.isIntersecting; });
     if (container.current) observer.observe(container.current);
-    const timer = window.setInterval(() => { if (visible && !document.hidden && !reduce.matches) change(1); }, 6000);
+    const timer = window.setInterval(() => { if (visible && !document.hidden && !reduce.matches) change(1); }, captions ? 10000 : 6000);
     return () => { clearInterval(timer); observer.disconnect(); };
-  }, [autoplay, interacting, photos.length, change]);
+  }, [autoplay, interacting, photos.length, change, captions]);
 
   useEffect(() => {
     if (!expanded) return;
